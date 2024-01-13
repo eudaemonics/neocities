@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>	<title>a lost angel's archives</title>
+	<description>Personal blogs, tryhard philosophical musings, and media reviews</description>
+	<link>https://strangeklug.neocities.org/diary/</link>
+	<atom:link href="https://strangeklug.neocities.org/diary/" rel="self"></atom:link>
+	<language>en</language>
+	<lastBuildDate>
+Tue, 07 Feb 2023 06:13:44 +0000
+</lastBuildDate>
+	<ttl>1440</ttl>
+
+	<item>
+		<title>[PERSONAL] Specks Of Time</title>
+		<description>
+Living in these few specks of time that make sense.     
+...
+First blog post! And living in these few specks of time that make sense.
+</description>
+		<link>https://strangeklug.neocities.org/diary/posts/2022-06-05.html</link>
+		<pubDate>
+			Sun, 05 Jun 2022 00:00:00 +0000
+		</pubDate>
+	</item>
+
+	<item>
+		<title>[PAPER] Ethics Of Microexpression Theory</title>
+		<description>A brief paper written as an extra credit assignment for a course I took on brain disorders and behavior. This was about 4 pages in total and discusses microexpression theory, a theory that there are expressions that last a fraction of a second on people's faces that can be used to determine if someone is lying or not. I briefly go over MET, its inception, and the possible harms it can cause if applied too broadly.</description>
+		<link>https://strangeklug.neocities.org/diary/posts/2022-06-15.html</link>
+		<pubDate>
+			Wed, 15 Jun 2022 00:00:00 +0000
+		</pubDate>
+	</item>
+
+	<item>
+		<title>[PERSONAL] Year Of The Water Rabbit</title>
+		<description>
+Talking about the last few months of inactivity, a brief life update and some site cleanup chat~.
+</description>
+		<link>https://strangeklug.neocities.org/diary/posts/2023-02-06.html</link>
+		<pubDate>
+			Mon, 06 Feb 2023 00:00:00 +0000
+		</pubDate>
+	</item>
+
+</channel>
+</rss>
