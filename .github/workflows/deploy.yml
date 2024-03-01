@@ -5,14 +5,14 @@ on:
 	  branches:
 	   - main
 	 
-	concurrency: 
+concurrency: 
 	# prevent concurrent deploys doing strange things
 	  group: deploy-to-neocities
 	  cancel-in-progress: true
 	 
-	jobs:
-	  deploy:
-	    runs-on: ubuntu-latest
+jobs:
+  deploy:
+	 runs-on: ubuntu-latest
 	 
 	    steps:
 	    - uses: actions/checkout@v3
