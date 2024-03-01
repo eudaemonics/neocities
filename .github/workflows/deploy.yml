@@ -2,7 +2,8 @@ name: Deploy to neocities
 
 on:
   push:
-    branches: [ main ]
+    branches:
+      - master
 	 
 concurrency: 
   group: deploy-to-neocities
