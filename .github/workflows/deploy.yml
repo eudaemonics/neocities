@@ -2,8 +2,8 @@ name: Deploy to neocities
 
 on:
   push:
-	 branches:
-	  - main
+	  branches:
+	    - main
 	 
 concurrency: 
 	# prevent concurrent deploys doing strange things
