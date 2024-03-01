@@ -19,7 +19,7 @@ xfun::file_string('menu.html')
 This part of my site is less like a blog and more like a "brain dump" honestly. I feel pretty strongly about [ btxx's concept of making a "brain dump" in lieu of a "blog"](https://btxx.org/posts/dump/). Older posts are longer form and more formal since I wasn't really sure what I wanted to do with this part of my site, but I've moved to using it more casually to expand on random ideas...
 
 ## 2024
-* **March 1, 2024:** [2024 Yearly themes](#) -- Blog about yearly themes and general ideas.
+* **March 1, 2024:** [2024 Yearly themes](2024-themes.html) -- Blog about yearly themes and general ideas.
 * **????:** [Making a site in RStudio](#) -- My experiences and challenges with brute-forcing a data science IDE to make a website.
 
 ## 2023
