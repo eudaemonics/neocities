@@ -1,0 +1,28 @@
+---
+title: "arka ruins"
+output: 
+  html_document:
+    includes:
+      after_body: footer.html
+css: "indexstyle.css"
+---
+
+# updates {.tabset .tabset-pills}
+
+:::{.container}
+
+```{=html}
+```{r, echo=FALSE, results='asis'}
+xfun::file_string('menu.html')
+```
+```
+
+## 2023
+**February 6, 2023:** The big return! I've added a few pages and added a new blog post. Check out resources, links, and the markdown dimension!  
+
+## 2022
+**June 6, 2022:** Gave everything a bit of a facelift, styled the diary page and made the site a bit more natural to read!  
+**June 5, 2022:** Diary page added  
+**May 23, 2022:** About page added  
+**May 22, 2022:** Site landing page launched
+:::

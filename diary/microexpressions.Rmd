@@ -1,0 +1,84 @@
+---
+title: "specks of time"
+output: 
+  html_document:
+    includes:
+      after_body: ../footer.html
+css: "../indexstyle.css"
+date: "Created June 15, 2022<br>Last update: `r format(Sys.time(), '%d %B, %Y')`"
+---
+
+::: {.container class="fluid-row d-flex flex-wrap align-content-stretch"}
+
+```{=html}
+```{r, echo=FALSE, results='asis'}
+xfun::file_string('diarymenu.html')
+```
+```
+
+::::{.col-md-12}
+
+# Microexpression theory and its ethics
+
+A brief paper written as an extra credit assignment for a course I took on brain disorders and behavior. This was about 4 pages in total and discusses microexpression theory, a theory that there are expressions that last a fraction of a second on people's faces that can be used to determine if someone is lying or not. I briefly go over MET, its inception, and the possible harms it can cause if applied too broadly.
+
+
+## WHAT ARE MICRO-EXPRESSIONS IN POPULAR CULTURE?
+
+Micro-expression theory (MET) was first popularized by Paul Ekman when he first discovered them in 1967 while reviewing recordings of psychiatric patient interviews. Ekman noticed brief flashes of emotions that would appear on patient’s faces—these emotions lasted from 1/25th to 1/5th of a second, leading to the term “micro-expression” (Ekman, 2003). His findings were so groundbreaking that a television series *Lie to Me* was created, which focused on catching liars and the process of training people to become “human lie detectors” (Navarro, 2011). While Ekman has truly done massive amounts of research work that proves that human facial expressions are universal, the concept of MET is questionable at best. The statistics presented in Ekman’s book *Telling Lies* are misleading as they claim that truth and lies can be told apart by facial expressions more than 80-90% of the time, as microexpressions were observed in only 22% of test subjects in another study (Gelitz, 2021). Suchotzki, a German researcher who specializes in lying, claims that many researchers do not take Ekman’s micro-expression theory very seriously because of two reasons: a lack of empirical evidence and the fact that the theory is fundamentally inadequate (Gelitz, 2021). Behavioral analyst and FBI veteran Joe Navarro (2011) elaborates in his article that many facial gestures may help to determine people’s true thoughts and feelings, but none of these gestures inherently mean that the person is lying. These gestures can communicate fear, dislike, disagreement, or just be learned behaviors that relieve stress for an individual.
+
+## MICRO-EXPRESSIONS IN THE SCIENTIFIC FIELD & ALTERNATE THEORIES
+
+   Porter and ten Brinke (2008) noticed that while MET receives enormous amounts of attention in the scientific community and in pop culture, there is very little empirical backing to the concept of MET and no published empirical research has firmly established the theory’s validity. While they attempted to establish more support for the theory,  they found that “participants were largely successful in neutralizing their emotions” (Porter & ten Brinke, 2008). The results of their findings provided some support for the inhibition hypothesis, the idea that inconsistent expressions occur more frequently with masked expressions than genuine expressions, the inconsistent emotional displays did not align with Ekman’s traditional definition of micro-expressions. Rather, Porter and ten Brinke (2008) found that these emotional displays lasted much longer than a micro-expression. They also discovered that people made errors 40.24% of the time when attempting to identify if a target was faking an emotion, which is not a negligible margin of error and supports the idea that humans are poor lie detectors and can only distinguish lies from truth about half of the time (Porter & ten Brinke, 2008; Gelitz, 2021). Burgoon (2018) lays out six propositions that must hold for MET to truly be valid,
+
+One, deception produces internal negative emotional experiences. Two, these internal experiences have associated outward expressions, including microexpressions. Three, microexpressions are uncontrollable. Four, these expressions are reliable and valid indicators of deception. Five, microexpressions occur frequently enough to be detectable. Six, detected microexpressions successfully distinguish truth from deception.
+
+I will not cover her findings for all of these propositions, but Burgoon (2018) found that deception does not reliably produce negative internal emotions, nor do those negative emotions signal deception. And although some micro-expressions *are* uncontrollable, they last longer than the traditional definition  of a micro-expression. For the third proposition, she found that micro-expressions do not occur with enough regularity to be truly detectable and false negatives are quite frequent. Not to mention that only 2% of the 700 expressions in Porter and ten Brinke’s study (2008) truly qualified as micro-expressions. Many of the expressions seen in their study lasted much longer than a traditional micro-expression should. She offers an alternative theory to MET called the “rigidity effect” RE which argues:
+
+…deceivers attempt to manage their nonverbal behavior and overall image so as to appear credible (strategic communication) while simultaneously attempting to control behaviors that are detrimental to their performance (non-strategic behavior). If efforts to appear natural, expressive, and relaxed are overridden by attempts to suppress signs of discomfiture, the overcontrol will backfire (Burgoon, 2018).
+
+RE posits that rather than fidgeting and acting nervous during interrogations, liars are more prone to becoming rigid and unnaturally stiff in an attempt to control behavior that may be interpreted as uncredible or suspicious. Burgoon (2018) argues that focusing solely on the face and presence of micro-expressions is insufficient for detecting deception and the scientific community should also look at the *lack* of facial expressions as a cue for deception or lying.
+
+## THE ETHICS AND POTENTIAL HARMS OF MET & RELATED THEORIES
+
+I do not necessarily agree with the theories put forward surrounding MET and RE, and this is largely because of the ethical ramifications of finding “cues” for lying and deception. While they may be valid in some cases, there are thousands of other cases where MET and RE can misread certain cues as flags for lying or deception when they may be nothing more than communications of fear, agitation, or trauma and fear responses. Primarily I am concerned for people with developmental disorders such as autism spectrum disorder (ASD) or attention-deficit hyperactive disorder (ADHD), but my concerns can also broadly apply to other cases such as schizophrenic patients, people with anxiety disorders, people with post-traumatic disorders, and even disabled people such as those who are deaf or hard of hearing. Police violence against autistic people, especially autistic people of color, has unfortunately never been uncommon and many result in beatings or use of unnecessary force. Like the case of Lindsey Torres’ son, a 10-year-old autistic boy, being restrained by two grown police officers and handcuffed, the beating of the black and autistic teenager Troy Canales in 2015, or the fatal shooting of Kobe Heisler in 2019 by police officers (Ball & Jeffrey-Wilensky, 2020). When MET and RE are considered as the only approaches for interrogating suspects, it assumes that everyone operates under the same framework when our behavior is informed by our past experiences, and some people are going to be read as suspicious or dangerous because of these oversights.
+
+Psychologists such as Kathleen Bogart live these experiences of having some form of disability, and she understands firsthand how it affects her communication and interactions with abled people. She was born with Moebius syndrome, which manifests in facial paralysis and the inability to move her eyes side-to-side, and her affect is often misread as unhappiness or anger, and she herself has found that a third of people with some form of facial paralysis have moderate to severe depression (Bogart, 2021). She poignantly writes of her experiences with alternate form of communication and the social model of disability which claims that disability is, in reality, a problem created and perpetuated by society:
+
+…society is the primary cause of disability, and the “problem” lies in society, not in the individual. Society’s lack of accommodation of human variation is viewed as the cause of the disabling experience. Disability occurs because societies are constructed based on the assumption that everyone can, for example, see, hear, and walk (Bogart, 2021).
+
+And I believe this model should be expanded further to involve nonverbal communication. Bogart emphasizes her use of alternative expression with body language to make up for her lack of facial expressions, and I believe that “atypical” body language seen like the eye contact in ASD, diminished or inappropriate affect in schizophrenic patients, or deaf individuals needing their attention directed in ways not involving sound are necessary to consider when applying MET and its related theories in practice regardless of the setting.
+
+# References
+
+Ball, E., & Jeffrey-Wilensky, J. (2020, November 26). *Why autism training for police isn’t enough*. Spectrum News. https://www.spectrumnews.org/news/why-autism-training-for-police-isnt-enough/
+
+Bogart, K. (2021, April 20). *The Psychology of Ableism and Communication | Psychology Today*. Psychology Today. https://www.psychologytoday.com/us/blog/disability-is-diversity/202104/the-psychology-ableism-and-communication
+
+Burgoon, J. (2018). Microexpressions are not the best way to catch a liar. *Frontiers in Psychology*, *9*. https://doi.org/https://doi.org/10.3389%2Ffpsyg.2018.01672
+
+Ekman, P. (n.d.). *Suppressed emotions and deception: The discovery of micro expressions*. Paul Ekman Group. Retrieved June 6, 2022, from https://www.paulekman.com/blog/suppressed-emotions-and-deception-the-discovery-of-micro-expressions/
+
+Gelitz, C. (2021, February 9). *Humans are pretty lousy lie detectors*. Scientific American. https://www.scientificamerican.com/article/humans-are-pretty-lousy-lie-detectors/
+
+Navarro, J. (2011, December 24). *Body language vs. micro-expressions*. Psychology Today. https://www.psychologytoday.com/us/blog/spycatcher/201112/body-language-vs-micro-expressions
+
+Porter, S., & ten Brinke, L. (2008). Reading between the lies: Identifying concealed and falsified emotions in universal facial expressions. *Sage Journals*, *19*(5). https://doi.org/https://doi.org/10.1111%2Fj.1467-9280.2008.02116.x
+::::
+
+:::
+
+::::{.container}
+
+:::::{.col-md-12}
+
+```{=html}
+```{r, echo=FALSE, results='asis'}
+xfun::file_string('commentbox.html')
+```
+```
+:::::
+
+::::
+
+

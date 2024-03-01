@@ -1,216 +1,120 @@
-/* DIV WRAPPERS */
-.item-wrap{
-    /*background-color:rgb(187, 149, 99);*/
-    background-image:url("img/ricepaper.png");
-    border: 2px solid rgba(40,31,22);
-    border-radius: 10px;
-    flex-wrap:wrap;
-    margin: 5px 10px;
-    align-content: justify;
-    align-items: center;
-    align-self: flex-start;
-    padding: 10px 15px;
-   -webkit-box-shadow: 10px 8px 2px 0px rgba(40,31,22,0.55); 
-    box-shadow: 10px 8px 2px 0px rgba(40,31,22,0.55);
-            }
 
- .my-wrapper{
-    display:flex;
-    justify-content:center;
-    flex-wrap:wrap;
-    margin:auto;
+@import url('https://fonts.googleapis.com/css?family=Nunito');
 
+body{
+  font-family: Nunito;
+  font-size: 1.4rem;
+  font-weight: ;
+  background-color: #d0cdeb;
+  background-image: url("data:image/svg+xml,%3Csvg width='100' height='20' viewBox='0 0 100 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M21.184 20c.357-.13.72-.264 1.088-.402l1.768-.661C33.64 15.347 39.647 14 50 14c10.271 0 15.362 1.222 24.629 4.928.955.383 1.869.74 2.75 1.072h6.225c-2.51-.73-5.139-1.691-8.233-2.928C65.888 13.278 60.562 12 50 12c-10.626 0-16.855 1.397-26.66 5.063l-1.767.662c-2.475.923-4.66 1.674-6.724 2.275h6.335zm0-20C13.258 2.892 8.077 4 0 4V2c5.744 0 9.951-.574 14.85-2h6.334zM77.38 0C85.239 2.966 90.502 4 100 4V2c-6.842 0-11.386-.542-16.396-2h-6.225zM0 14c8.44 0 13.718-1.21 22.272-4.402l1.768-.661C33.64 5.347 39.647 4 50 4c10.271 0 15.362 1.222 24.629 4.928C84.112 12.722 89.438 14 100 14v-2c-10.271 0-15.362-1.222-24.629-4.928C65.888 3.278 60.562 2 50 2 39.374 2 33.145 3.397 23.34 7.063l-1.767.662C13.223 10.84 8.163 12 0 12v2z' fill='%238888cc' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
 }
 
-.tooltip .tooltiptext {
-  top: -5px;
-  right: 105%;
+.title{
+  text-shadow: 2px 2px 0px rgba(121,109,208,0.82);
 }
 
-/* COLUMNS */
-
-#leftcol{
-    top:0;
-    text-align: left;
-    flex-shrink: 2;
-    max-width: 250px;
-    height:100%;
+.menu{
+  font-size: 2.5rem;
+  font-weight:bold;
+  background-color:;
 }
 
-@media screen and (max-width: 500px) {
- #right {
-   max-width: 15vw;
-    max-height:15vw;
- }
-}
-
-@media screen and (max-width: 250px){
-    #leftcol {
-        max-width: 45vw;
-    }
-}
-
-#centercol{
-    max-width: 600px;
-    flex-shrink: 2;
-     }
-
-@media screen and (max-width: 500px) {
- #centercol {
-   max-width: 90vw;
- }
-}
-
-#rightcol{
-    text-align:center;
-    top: 0;
-    max-width: 250px;
-    flex-shrink: 2;
-}
-#verity-img{
-    width:150px;
-    max-width:250px;
-    flex-shrink:1;
-    height:auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-header{
-    font-family: Lobster, serif;
-    text-shadow: 2px 2px #C6468A;
-    color:#18093E;
-    padding: 15px 2px 2px 2px;
-    font-size: 4em;
-    max-width: 400px;
-    margin: auto;
-}
-
-
-
-nav{
-    margin: auto;
-    text-align: center;
-    padding: 10px;
+  .nav-pills>li>a:hover, .nav-pills>li>a:focus, .nav-pills>li.active>a,     .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus{
+     background-color: slateblue;
 }
 
 h1{
-    font-family: Arvo;
-    text-decoration: underline;
-    text-align: center;
-    font-size: 1.5em;
-    background-color:#ccb597;
+  text-align: center;
+  font-size: 3.5rem;
+  font-weight: bolder;
+  font-style: underline;
 }
 
 h2{
-    font-family: Arvo;
-    text-decoration: underline;
-    text-align: center;
-    font-size: 1.2em;
-    background-color:#ccb597;
+  text-align: center;
+  padding: 5px 5px;
+  font-weight: bolder;
+  font-size: 2rem;
+  border-bottom: 2px dashed #ac4767;
+}
+h3,h4,h5,h6{
+  font-style: italic;
+  font-size: 1.5rem;
+  background-color:;
+  text-align: center;
 }
 
-body{
-    margin: auto;
-    background-image: url("img/herringbone.png");
-
+hr{
+  border-top: 2px dotted black;
+  width: 65%
+  
 }
-
 
 p{
-    font-family: Nunito;
-    font-size: 1em;
+ color:#3A458A;
+ font-family: Nunito;
 }
 
+ul{
+  color:#3A458A;
+}
+
+li {
+  list-style-type: '✧';
+  padding-inline-start: 1ch;
+}
+
+
 a{
-    color:#ac4767;
-    text-decoration: none;
+  color:#ac4767;
+  text-decoration: none;
 }
 
 a:hover{
     color:#4a4e86;
     text-decoration: underline;
     transform: scale(2px); 
-    text-shadow: 0 0 5px #647AD1;
 }
 
-
-
-footer{
-   /* background-color:rgb(187, 149, 99);*/
-    font-size: .80em;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   color:darkblue;
-   text-align: center;
-    background-color:none;
+.container{
+  border-radius: 5px;
+  width:100%;
+  height: 100%;
+  border: solid 2px #a3b1dd;
+  box-shadow: 2px 2px 7px 1px #a3b1dd;
+  padding: 5px 5px;
+  margin: 10px 10px;
+  background-color:#E8E9FF;
 }
 
-ul{
-    font-family: Nunito;
+.leftcol{
+
 }
 
-.facts-list{
-    padding: 0px 0px;
-    margin-top: 0px;
-    list-style-type: square;
-}
+.rightcol{
 
-li{
-list-style-type: none;
-}
-
-.navbar{   
-    font-family: Nunito, sans-serif;
-    display: inline;
-    padding:8px;
-    max-width:400px;
-    margin: 0;
-    padding: 0;
-  
-}
-
-.navlink{
-    font-family: Arvo, serif;
-    font-weight: bolder;
-    font-size: .9em;
-    padding: 5px 5px; 
-    list-style-type: none;
-    float: 
-    
-}
-
-.navlink:hover{
-    background-color:#fac0d3;
 }
 
 #statuscafe {
-    font-family: Nunito, sans-serif;
-    text-align: center;
-    padding: .5em;
-    border-radius:5px;
-    border: 1px dotted midnightblue;
+  padding: 1px 2px;
+   border: dotted 1px #8888cc;
 }
-#statuscafe-username {
-    margin-bottom: .5em;
-}
+
 #statuscafe-content {
-    margin: 0 1em 0.5em 1em;
+  color:#3A458A;
+  border-radius: 25px;
+  margin: 0 1em 0.5em 1em;
+  
 }
 
-/*.rightcollinks{
-    font-family: Nunito;
-    margin:auto;
-    text-align: justify;
-}*/
-
-.scrollable {
-    height: 125px; /* or any value */
-    overflow-y: auto;
+.buttons{
 }
 
-@media (max-width: 450px){
-  (max-width: 450px) {
+#footer{
+  border-radius: 5px;
+  width:100%;
+  border: solid 2px #a3b1dd;
+  box-shadow: 2px 2px 7px 1px #a3b1dd;
+  background-color:#E8E9FF;
 }
+
