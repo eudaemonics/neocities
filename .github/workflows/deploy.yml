@@ -3,9 +3,6 @@ name: Deploy to neocities
 # only run on changes to master
 on:
   push:
-  paths-ignore:
-      - '*.Rmd'
-      - '**/*.Rmd'
     branches:
       - master
 
