@@ -33,6 +33,7 @@ xfun::file_string('menu.html')
 ---
 
 **updates**
+**March 1, 2024:** New [blog post](diary/2024-themes.html) about this year and my absence
 
 **February 29, 2024:** Transitioned from brackets to RStudio since I'm more comfortable with this environment. Got rid of the markdown dimension since clearly it didn't help me post more.  
 
