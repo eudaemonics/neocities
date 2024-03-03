@@ -59,10 +59,11 @@ xfun::file_string('menu.html')
   * *Vampire in the Garden*
 * **Manga:** 
   * *Witch Hat Atelier*
-   **Is Love the Answer?*
+  * *Is Love the Answer?*
 * **Books:** 
   * *The Last Unicorn* by Peter S. Beagle
   * *A Fine and Private Place* by Peter S. Beagle
+  * *The Decagon House Murders* by Yukito Ayatsuji
 * **Movies:** 
   * *The Lego Movie*
   * *Everything Everywhere All at Once*
