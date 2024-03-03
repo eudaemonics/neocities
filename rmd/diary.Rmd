@@ -20,7 +20,7 @@ This part of my site is less like a blog and more like a "brain dump" honestly. 
 
 ## 2024
 * **March 1, 2024:** [2024 Yearly themes](diary/2024-themes.html) -- Blog about yearly themes and general ideas.
-* **????:** [Making a site in RStudio](#) -- My experiences and challenges with brute-forcing a data science IDE to make a website.
+* **March 2, 2024:** [Making a site in RStudio](diary/rmarkdown-ssg.html) -- My experiences and challenges with brute-forcing a data science IDE to make a website.
 
 ## 2023
 * **February 6, 2023:** [Year of the Water Rabbit](diary/water-rabbit.html) -- My hopes and aspirations for 2023.

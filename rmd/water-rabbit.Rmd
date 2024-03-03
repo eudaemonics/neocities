@@ -4,11 +4,10 @@ output:
   html_document:
     fig_caption: FALSE
     includes:
-      after_body: ../footer.html
+      after_body: "../footer.html"
 css: "../indexstyle.css"
 date: "Created February 6, 2023<br>Last update: `r format(Sys.time(), '%d %B, %Y')`"
 ---
-
 
 ::: {.container class="fluid-row d-flex flex-wrap align-content-stretch"}
 

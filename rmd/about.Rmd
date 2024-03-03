@@ -1,0 +1,161 @@
+---
+title: "arka ruins"
+output: 
+  html_document:
+    fig_caption: FALSE
+    includes:
+      after_body: footer.html
+css: "indexstyle.css"
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(vembedr)
+library(htmltools)
+```
+
+::: {.container class="fluid-row d-flex flex-wrap align-content-stretch"}
+```{=html}
+```{r, echo=FALSE, results='asis'}
+xfun::file_string('menu.html')
+```
+```
+
+::::{.col-md-5 class="rightcol"}
+## fun stuff {.tabset .tabset-pills}
+
+### now
+
+**days**
+
+* Trying to journal in my Hobonichi Weeks every day
+* Trying to play, read, or write something once a day.
+
+**weeks**
+
+* Working on this website as well as my professional one.
+* Traveling to the Philippines to see family.
+
+**months**
+
+* Reading a lot of books and watching anime.
+* Looking for work and preparing to work as a research assistant.
+* Studying Japanese and working on my driver's license.
+* Learning about how to use the [blogdown package](https://bookdown.org/yihui/blogdown/) so I can update this site and not have nightmares about subdirectories anymore.
+
+**years**
+
+* Researching information on graduate school.
+* Hopefully visiting my partner at some point.
+
+### favorites
+
+* **Games:** 
+  * *Puyo Puyo Fever 2* (NDS)
+  * *Umineko no Naku Koro ni* (PC)
+  * *Okami* (Wii)
+* **Anime:** 
+  * *Shojo Kageki: Revue Starlight* 
+  * *Star Twinkle Precure*
+  * *Vampire in the Garden*
+* **Manga:** 
+  * *Witch Hat Atelier*
+   **Is Love the Answer?*
+* **Books:** 
+  * *The Last Unicorn* by Peter S. Beagle
+  * *A Fine and Private Place* by Peter S. Beagle
+* **Movies:** 
+  * *The Lego Movie*
+  * *Everything Everywhere All at Once*
+
+### userboxes
+<center>
+![a userbox with a picture of Klug from Puyo Puyo](img/userbox/klug userbox.png){width=75%}
+
+![a userbox with a picture of Possessed Klug from Puyo Puyo](img/userbox/aya userbox.png){width=75%}
+
+![a userbox with a picture of Mafuyu Asahina from Project Sekai](img/userbox/mfy userbox.png){width=75%}
+
+![a userbox with a picture of Shu Itsuki from Ensemble Stars](img/userbox/nightcord fan userbox.png){width=75%}
+
+![a userbox with a picture of Shu Itsuki from Ensemble Stars](img/userbox/shu userbox.png){width=75%}
+
+![a userbox with a picture of Valkryie's logo from Ensemble Stars](img/userbox/valkyrie fan userbox.png){width=75%}
+</center>
+
+### stamps
+![a stamp with a drawing of Neko Arc on a red background. The pink text in the foreground reads "yippeee"](img/stamp/yipeee.png)
+![a stamp with pixel artwork of a Wii. The text reads "I heart nintendo wii."](img/stamp/I love my wii.webp) ![a stamp with pixel artwork of a DS. The text reads "I heart my DS"](img/stamp/I love my ds.jpg)
+![an animated stamp that reads "go here. go in the dark".](img/stamp/go in the dark.gif) ![a stamp with a cyan background and a red 7 slightly off-center.](img/stamp/7_stamp.png)
+
+::::
+
+:::: {.col-md-7 class="midcol"}
+## about me
+<center>![an animated pixel that says "angel" with a halo and white wings](img/button/angel.webp){width=55%}</center>
+
+* **Name:** Eudae or Eudiel
+* **Pronouns:** ey/em/eir/emself or they/them/theirs/themselves
+* **Birthday:** Dec. 27
+* **Languages:** English and French
+* **Age:** Old enough to know better!
+
+<center>
+![A pixel of the Gilbert Baker flag.](img/flags/rainbow.png) ![A pixel of the lesbian flag.](img/flags/lesbian.png)  ![A pixel of theneutrois flag.](img/flags/neutrois.png) ![A pixel of the aroace spectrum flag.](img/flags/aroacespec.png)
+</center>
+
+As I've gotten older, I have a harder and harder time figuring out what to write on these about pages, honestly. Probably because I feel like these about pages become outdated super quickly... I started this site in ~2022 as a place to store some of my ramblings and art and learn more about CSS/HTMl. 
+
+I'm mostly interested in academia and want to become a psychology researcher and educator. My interests are mostly on digital communication, informatics, and sociopsyschology. This site's current iteration was primarily written in RStudio ~~because I'm a masochist~~ because I worked a lot with it for my schooling and feel comfortable editing markdown documents. I have a blog post about how I used its native SSG to write this site [here](diary/rmarkdown-ssg.html).
+
+In terms of media interests, I really like the ''Puyo Puyo'' franchise and I have eclectic taste in anime and manga, and I read a lot of mystery/detective novel fiction.
+
+::::
+
+::::  {.col-md-12}
+
+## {.tabset .tabset-pills}
+
+### system info
+I am a multiple system and identify with the OSDD label, but most posts on this site are written and shared collectively. Feel free to click the tabs above to learn about specific members. This isn't a comprehensive list, but these are ones that you might run into frequently.
+
+### 🐚 klug
+<div style="float:right">
+![an icon of Klug from Puyo Puyo](img/klugicon.png){width=50%}
+</div>
+
+The host who primarily posts on this website and does most of the content-writing. 
+
+* Adult
+* ey/em/eir
+* Perpetually tired butch lesbian
+* **Likes:** Tedious work, coding, data science, art, psychology, sociology
+
+### 🌹 daeva
+
+<div style="float:right">
+![an icon of Stragnge Klug from Puyo Puyo](img/ayaicon.png){width=50%}
+</div>
+
+The cohost who doesn't really post here, but often provides emotional support and likes to make the site feel "cool", though her standards of that might be outdated.
+
+* Adult
+* She/her/hers or it/its/itself
+* Weird bi girl
+* **Likes:** Writing, poetry, classical art, narratology
+
+### ✂️ nilya
+
+<div style="float:right">
+![an icon of Zero from Puyo Puyo](img/zeroicon.png){width=50%}
+</div>
+
+A frontrunner who doesn't write much content, but likes to contribute to the site's responsiveness and stylesheet.
+
+* Teenager
+* he/him/his or it/it/its
+* World's most extroverted shut-in
+* Does not actually like the character in his faceclaim
+* **Likes:** Computers, programming, horror manga and visual novels
+::::
+
+:::

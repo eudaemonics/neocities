@@ -33,7 +33,10 @@ xfun::file_string('menu.html')
 ---
 
 **updates**
-**March 1, 2024:** New [blog post](diary/2024-themes.html) about this year and my absence
+
+**March 3, 2024:** Wrote up a [blog](diary/rmarkdown-ssg.html) about making this site with rmarkdown's native SSG.
+
+**March 1, 2024:** New [blog post](diary/2024-themes.html) about this year and my absence.
 
 **February 29, 2024:** Transitioned from brackets to RStudio since I'm more comfortable with this environment. Got rid of the markdown dimension since clearly it didn't help me post more.  
 
@@ -52,16 +55,16 @@ xfun::file_string('menu.html')
 ### links
 **onsite**
 
-* [stamp collection](#)
-* [coding resources](#)
+* ~~stamp collection~~ (*coming soon*)
+* ~~webdev~~ (*coming soon*)
 * ~~writing~~ (*coming soon*)
 
 **external**
 
-* [neocities](#) 
-* [storygraph](#) 
-* [backloggery](#)
-* [myanimelist](#)  
+* [neocities](https://neocities.org/site/klug) 
+* [storygraph](https://app.thestorygraph.com/profile/eudaemonics) 
+* [backloggery](https://backloggery.com/strangeklug)
+* [myanimelist](https://myanimelist.net/profile/strangeklug)  
 
 ::::
 
@@ -69,7 +72,9 @@ xfun::file_string('menu.html')
 ## welcome
 This site functions as a personal archive for my works, my interests and shrines, as well as a creative exercise as I explore the world of static web coding.
 
-As of March 2024, I mostly use RStudio to generate my HTML. It makes my life a lot easier in terms of testing and content control. I am currently working to make this site as responsive as possible.
+As of March 2024, I mostly use RStudio to generate my HTML. It makes my life a lot easier in terms of testing and content control. I am currently working to make this site as responsive as possible, but please forgive any mistakes...I'm aware display on mobile is very borked. 
+
+My aim is to create an accessible site regardless of device, as I believe that making your site only navigable on desktop is classist and ableist, especially as [most internet users access the internet through a mobile device.](https://explodingtopics.com/blog/mobile-internet-traffic#percentage-of-mobile-traffic)
 
 ### song of the month
 <center>
@@ -91,16 +96,17 @@ query = NULL
 
 :::{.col-md-12 class="buttons"}
 <center>
-![](img/button/neocities_button.gif)
-![](img/button/free_palestine.gif)
-![](img/button/antinazi.gif)
-![](img/button/anti_nft.webp)
-![](img/button/right_to_repair.png)
-![](img/button/firefox_now.gif)
-![](img/button/lgbt.png)
-![](img/button/pride_now.webp)
-![](img/button/trn.png)
-![](img/button/paws.png)
+![A button for Neocities. Neocities dot org is written in blue text and in smaller text the caption reads "The web is yours"](img/button/neocities_button.gif)
+![A button with the Palestinian Flag on it that reads "free Palestine"](img/button/free_palestine.gif)
+![A button with a crossed out Swastika that says "No Nazi, No Fascism, No Racism"](img/button/antinazi.gif)
+![A button with a crossed out printer. It says "This is an Anti-NFT site"](img/button/anti_nft.webp)
+![A blue button with a black hand holding a wrench. The text reads "I support right to repair".](img/button/right_to_repair.png)
+![A button with the Firefox logo on it. the text read "Firefox Now!"](img/button/firefox_now.gif)
+![A button with the lesbian, gay, bisexual, and transgender flags.](img/button/lgbt.png)
+![a button with a red heart and a rainbow banner in the corner. The text reads "Pride now!"](img/button/pride_now.webp)
+![A button with the trans flag on it. It says "Trans rights now"](img/button/trn.png)
+
+![a button with a purple pawprint. The text reads "Made with my own two paws".](img/button/paws.png)
 
 
 
