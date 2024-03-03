@@ -52,6 +52,7 @@ Haha. No. Unless you really like a challenge and are *very* comfortable with mar
 * The plugins available in R make formatting so easy for me that I really don't want to let go of it.
 
 **Cons:**
+
 * RStudio's SSG doesn't read subdirectories, so working with most of my diary posts in a subfolder was kind of hell.
 * This is stupid difficult if you're not familiar with YAMLs,
 * I used a lot of different R packages for this, so I don't recommend working with it unless you're completely fine with installing different packages (i.e. my gallery uses an R library called pixture)
