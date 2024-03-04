@@ -1,0 +1,76 @@
+---
+title: "arka ruins"
+output: 
+  html_document:
+    fig_caption: FALSE
+    includes:
+      after_body: footer.html
+css: "indexstyle.css"
+date: "Last update: `r format(Sys.time(), '%d %B, %Y')`"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(vembedr)
+library(htmltools)
+```
+
+::: {.container class="fluid-row d-flex flex-wrap align-content-stretch"}
+
+```{=html}
+```{r, echo=FALSE, results='asis'}
+xfun::file_string('menu.html')
+```
+```
+
+# "creation should be accessible"
+I'm starting this page with a bit of a preachy rant here, but I've noticed some people I follow and even those on other sites complaining about something that really should not be an issue: people having boring pages, being posers, and using templates.
+
+I think it's really important these days, more than ever, to encourage creativity even if it's only for a short period of time. I feel like I've seen on here and other sites people bitching and moaning about "posers", how templates are the "death of neocities" and how the site is being overrun somehow by uninteresting people with nothing to say.
+
+To be completely transparent: I am not an interesting person and what I write here is mostly useless. I like working with my site because it's like a puzzle, but I'm never going to be customized to the same level as some sites, and that's fine. Maybe I'm a poser for having a really plain and somewhat modern looking site, but I don't care.
+
+Also: God forbid people use templates to help themselves learn a new skill? I don't think people realize just how common templates were, and still are? I don't think people need to prove their worth to have a site on here, and you can always just close a site or block the url if you think they have nothing interesting to contribute. In my humble opinion, as long as people aren't stealing code or using AI to write their site for them, **let people be mediocre. You do not have to be interesting, nor are people entitled to being entertained by you.**
+
+Now go. Be free.
+
+## dev resources {.tabset .tabset-pills}
+
+### basics
+* [Webguide](https://webguide.neocities.org/)
+* [HTML Cheat Sheet](https://htmlcheatsheet.com/)
+* [CSS Cheat Sheet](https://htmlcheatsheet.com/css/)
+
+### accessibility
+
+* [Realtime colors](https://realtimecolors.com/?colors=000000-ffffff-4685ff-f2f2f2-ffb084) - Allows you to preview colors in real-time
+* [Responsive templates and snippets](https://matthewjamestaylor.com/web-design) - Templates by Matthew James Taylor
+* [CSS Layout Generator](https://layout.bradwoods.io/) - Layout generator by Brad Woods
+
+### static site hosting
+These are alternatives to neocities that have the same idea of static web hosting.
+
+* [ichi.city](https://ichi.city)
+* [nekoweb.org](https://nekoweb.org)
+
+
+### tools & templates
+
+* [HTML-5 Templates](https://html5-templates.com/)
+* [Nonkiru's templates](https://nonkiru.art/layouts/)
+* [Markdown2HTML](https://markdowntohtml.com/)
+* [Static ultra](https://www.reddit.com/r/neocities/comments/12l6mpz/static_ultra/?utm_source=share&utm_medium=android_app&utm_name=androidcss&utm_term=1&utm_content=share_button) 
+* [Repth's themes](https://repth.neocities.org/theme)
+* [Zoner](https://ryantrawick.itch.io/zoner)
+* [HTML Comment Box](https://www.htmlcommentbox.com/)
+* [Lorem Ipsum generator](https://loremipsum.io/)
+
+### fun
+
+* [Things you can do on your website](https://rknight.me/blog/more-things-you-can-do-on-your-website/)
+
+### gamedev
+
+* [Google Sheets Ren'py Formatter](https://www.tumblr.com/klug/741815905064976384?source=share)
+
+:::

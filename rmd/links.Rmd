@@ -1,0 +1,36 @@
+---
+title: "arka ruins"
+output: 
+  html_document:
+    includes:
+      after_body: footer.html
+css: "indexstyle.css"
+---
+
+# affiliates 
+
+:::{.container}
+
+```{=html}
+```{r, echo=FALSE, results='asis'}
+xfun::file_string('menu.html')
+```
+```
+A collection of my neocities neighbors and sites that personally inspire me. If you're a neighbor and want to be included on this site, send me a message or comment on my site. My own button will be here... eventually.
+
+## neo-neighbors
+<center>
+[![](img/link/cattnep.gif)](https://cattnep.neocities.org) [![](img/link/cavernofrememberance.gif)](https://cavernofremembrance.neocities.org) [![](img/link/dethl.png)](https://dethl.neocities.org) [![](img/link/dragonshores.png)](https://dragonshores.neocities.org) [![](img/link/orbees.png)](orbees.neocities.org) [![](img/link/owlsroost.webp)](https://owlsroost.xyz/) [![](img/link/roccie.gif)](https://roccie.neocities.org) [![](img/link/splattacks.gif)](https://splattacks.neocities.org) [![](img/link/vms-number-station.gif)](https://https://vm70.neocities.org)
+</center>
+
+## inspirations
+<center>
+[![](img/link/lostletters.gif)](https://lostlettters.neocities.org) [![](img/link/virtualobserver.png)](https://virtualobserver.moe) [![](img/link/frills.png)](https://frills.dev)
+</center>
+
+
+## non-stamp links
+* [Scketchzone](https://scketchzone.com)
+* [Batzjam](https://batzjam.neocities.org)
+
+:::

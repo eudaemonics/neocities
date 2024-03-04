@@ -55,7 +55,6 @@ xfun::file_string('menu.html')
 ### links
 **onsite**
 
-* ~~stamp collection~~ (*coming soon*)
 * ~~webdev~~ (*coming soon*)
 * ~~writing~~ (*coming soon*)
 
@@ -99,14 +98,17 @@ query = NULL
 ![A button for Neocities. Neocities dot org is written in blue text and in smaller text the caption reads "The web is yours"](img/button/neocities_button.gif)
 ![A button with the Palestinian Flag on it that reads "free Palestine"](img/button/free_palestine.gif)
 ![A button with a crossed out Swastika that says "No Nazi, No Fascism, No Racism"](img/button/antinazi.gif)
-![A button with a crossed out printer. It says "This is an Anti-NFT site"](img/button/anti_nft.webp)
+![A button with a crossed out printer. It says "This is an Anti-NFT site"](img/button/anti_nft.webp) 
+![A button that reads "defund police"](img/button/defundpolice.gif)
 ![A blue button with a black hand holding a wrench. The text reads "I support right to repair".](img/button/right_to_repair.png)
 ![A button with the Firefox logo on it. the text read "Firefox Now!"](img/button/firefox_now.gif)
 ![A button with the lesbian, gay, bisexual, and transgender flags.](img/button/lgbt.png)
 ![a button with a red heart and a rainbow banner in the corner. The text reads "Pride now!"](img/button/pride_now.webp)
 ![A button with the trans flag on it. It says "Trans rights now"](img/button/trn.png)
-
+![a rainbow button that says "youre telling me a queer coded this"](img/button/queer.png)
 ![a button with a purple pawprint. The text reads "Made with my own two paws".](img/button/paws.png)
+![a button that reads "best viewed with open eyes"](img/button/bestview.gif)
+
 
 
 
