@@ -16,6 +16,8 @@ css: "indexstyle.css"
 xfun::file_string('menu.html')
 ```
 ```
+## 2024
+**February 29, 2024:** Transitioned from brackets to RStudio since I'm more comfortable with this environment. Got rid of the markdown dimension since clearly it didn't help me post more.  
 
 ## 2023
 **February 6, 2023:** The big return! I've added a few pages and added a new blog post. Check out resources, links, and the markdown dimension!  

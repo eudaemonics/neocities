@@ -34,20 +34,18 @@ xfun::file_string('menu.html')
 
 **updates**
 
-**March 3, 2024:** Wrote up a [blog](diary/rmarkdown-ssg.html) about making this site with rmarkdown's native SSG.
+**March 3, 2024:** Wrote up a [blog](diary/rmarkdown-ssg.html) about making this site with rmarkdown's native SSG. Also added the [webdev](webdev.html) and [links](links.html) page.
 
 **March 1, 2024:** New [blog post](diary/2024-themes.html) about this year and my absence.
-
-**February 29, 2024:** Transitioned from brackets to RStudio since I'm more comfortable with this environment. Got rid of the markdown dimension since clearly it didn't help me post more.  
 
 *Past updates can be seen [here](updates.html).*
 
 ### to-do
-* Redo my stylesheet.
-* Work on my gallery the R library pixture.
+* Redo my stylesheet...
 * Write more blog posts and book reviews.
-* Maybe a blog post about making a site in R?
-* Update the diary pages to RMD.
+* Start looking into blogdown.
+* Figure out how to organize a /library or bookshelf page and a video games archive page.
+* Do some more fun experiments.
 <center>
 ![](img/button/construction.gif)
 </center>
@@ -55,7 +53,8 @@ xfun::file_string('menu.html')
 ### links
 **onsite**
 
-* ~~webdev~~ (*coming soon*)
+* [webdev](webdev.html)
+* [links and neoneighbors](links.html)
 * ~~writing~~ (*coming soon*)
 
 **external**
