@@ -1,12 +1,12 @@
 ---
-title: "arka ruins"
+title: "dev tools ✦ arka ruins"
 output: 
   html_document:
     fig_caption: FALSE
     includes:
+      in_header: header.html
       after_body: footer.html
 css: "indexstyle.css"
-date: "Last update: `r format(Sys.time(), '%d %B, %Y')`"
 ---
 
 ```{r setup, include=FALSE}
@@ -32,7 +32,7 @@ To be completely transparent: I am not an interesting person and what I write he
 
 Also: God forbid people use templates to help themselves learn a new skill? I don't think people realize just how common templates were, and still are? I don't think people need to prove their worth to have a site on here, and you can always just close a site or block the url if you think they have nothing interesting to contribute. In my humble opinion, as long as people aren't stealing code or using AI to write their site for them, **let people be mediocre. You do not have to be interesting, nor are people entitled to being entertained by you.**
 
-Now go. Be free.
+Now go. Be free. Be bad at this. Be cringe at this. Be boring.
 
 ## dev resources {.tabset .tabset-pills}
 

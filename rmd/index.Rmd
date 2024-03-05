@@ -4,6 +4,7 @@ output:
   html_document:
     fig_caption: FALSE
     includes:
+      in_header: header.html
       after_body: footer.html
 css: "indexstyle.css"
 date: "Last update: `r format(Sys.time(), '%d %B, %Y')`"
@@ -42,9 +43,12 @@ xfun::file_string('menu.html')
 
 ### to-do
 * Redo my stylesheet...
+* Downsize some of my images and change them from PNG to JPG
+* Work on sitemap.
+* Look into installing giscus.
 * Write more blog posts and book reviews.
-* Start looking into blogdown.
-* Figure out how to organize a /library or bookshelf page and a video games archive page.
+* Start looking into blogdown...?
+* Figure out how to organize a /library or /bookshelf page.
 * Do some more fun experiments.
 <center>
 ![](img/button/construction.gif)
@@ -54,12 +58,16 @@ xfun::file_string('menu.html')
 **onsite**
 
 * [webdev](webdev.html)
-* [links and neoneighbors](links.html)
+* [links & neighbors](links.html)
 * ~~writing~~ (*coming soon*)
 
 **external**
 
+* [guestbook](https://strangeklug.123guestbook.com/)
 * [neocities](https://neocities.org/site/klug) 
+* [tumblr](https://klug.tumblr.com)
+* [cohost](https://cohost.org/klug)
+* [twitter](https://twitter.com/liberatium)
 * [storygraph](https://app.thestorygraph.com/profile/eudaemonics) 
 * [backloggery](https://backloggery.com/strangeklug)
 * [myanimelist](https://myanimelist.net/profile/strangeklug)  

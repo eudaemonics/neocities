@@ -1,9 +1,10 @@
 ---
-title: "gallery"
+title: "gallery ✦ arka ruins"
 output: 
   html_document:
     fig_caption: FALSE
     includes:
+      in_header: header.html
       after_body: footer.html
 css: "indexstyle.css"
 ---
@@ -21,7 +22,9 @@ xfun::file_string('menu.html')
 ```
 ```
 
-::::{.col-md-12 class="rightcol"}
+This is an attempt at compiling (most) of my artistic efforts. I started actually writing this page in February 2024, and the last time I updated this page was `r format(Sys.time(), '%B %d, %Y')`.
+
+::::{.col-md-12}
 
 ## colored
 ```{r, echo=FALSE}

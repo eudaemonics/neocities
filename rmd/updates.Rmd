@@ -1,13 +1,15 @@
 ---
-title: "arka ruins"
+title: "updates ✦ arka ruins"
 output: 
   html_document:
+    fig_caption: FALSE
     includes:
+      in_header: header.html
       after_body: footer.html
 css: "indexstyle.css"
 ---
 
-# updates {.tabset .tabset-pills}
+# updates 
 
 :::{.container}
 
