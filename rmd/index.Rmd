@@ -35,6 +35,8 @@ xfun::file_string('menu.html')
 
 **updates**
 
+**April 22, 2024:** New [blog post](diary/gdocs-blog.html) about blogging in lieu of using Google Docs for important and interesting posts. RStudio continues to break my special symbols, so the site looks a bit weird right now.
+
 **March 3, 2024:** Wrote up a [blog](diary/rmarkdown-ssg.html) about making this site with rmarkdown's native SSG. Also added the [webdev](webdev.html) and [links](links.html) page.
 
 **March 1, 2024:** New [blog post](diary/2024-themes.html) about this year and my absence.
@@ -80,13 +82,13 @@ This site functions as a personal archive for my works, my interests and shrines
 
 As of March 2024, I mostly use RStudio to generate my HTML. It makes my life a lot easier in terms of testing and content control. I am currently working to make this site as responsive as possible, but please forgive any mistakes...I'm aware display on mobile is very borked. 
 
-My aim is to create an accessible site regardless of device, as I believe that making your site only navigable on desktop is classist and ableist, especially as [most internet users access the internet through a mobile device.](https://explodingtopics.com/blog/mobile-internet-traffic#percentage-of-mobile-traffic)
+My aim is to create an accessible site regardless of device, especially as [most internet users access the internet through a mobile device.](https://explodingtopics.com/blog/mobile-internet-traffic#percentage-of-mobile-traffic)
 
 ### song of the month
 <center>
 ```{r, echo=FALSE}
 embed_youtube(
-"jIDgTWcKmCg",
+"91E_W8JhSjs",
 width = NULL,
 height = 185,
 ratio = c("16by9", "4by3"),
@@ -95,7 +97,9 @@ allowfullscreen = TRUE,
 query = NULL
 )
 ```
+"I'm the Rain" by inabacumori feat. Nightcord at 25:00
 </center>
+
 ::::
   
 :::

@@ -20,7 +20,7 @@ This part of my site is less like a "blog" and more like a "brain dump" since I 
 
 Older posts are longer form and more formal since I wasn't really sure what I wanted to do with this part of my site, but I've moved to using it more casually to expand on random ideas... Don't take me too seriously.
 
-
+* **April 22, 2024:** [Ditch Google Docs and Get a Blog](diary/gdocs-blog.html) -- I think everyone should stop putting their interesting thoughts and opinions in Google docs and just get a blog already.
 * **March 2, 2024:** [Making a site in RStudio](diary/rmarkdown-ssg.html) -- My experiences and challenges with brute-forcing a data science IDE to make a website.
 * **March 1, 2024:** [2024 Yearly themes](diary/2024-themes.html) -- Blog about yearly themes and general ideas.
 * **February 6, 2023:** [Year of the Water Rabbit](diary/water-rabbit.html) -- My hopes and aspirations for 2023.
