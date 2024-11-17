@@ -31,6 +31,9 @@ xfun::file_string('menu.html')
 
 <div id="statuscafe"><div id="statuscafe-username"></div><div id="statuscafe-content"></div></div><script src="https://status.cafe/current-status.js?name=strangeklug" defer></script>
 
+<div data-pkfronters-system="noyiw" data-pkfronters-type="card" data-pkfronters-options="image_proxy, cbo"></div>
+<script src="https://irys.cc/fronters/pkfronters.js"></script>
+
 ---
 
 **updates**
@@ -38,8 +41,6 @@ xfun::file_string('menu.html')
 **April 22, 2024:** New [blog post](diary/gdocs-blog.html) about blogging in lieu of using Google Docs for important and interesting posts. RStudio continues to break my special symbols, so the site looks a bit weird right now.
 
 **March 3, 2024:** Wrote up a [blog](diary/rmarkdown-ssg.html) about making this site with rmarkdown's native SSG. Also added the [webdev](webdev.html) and [links](links.html) page.
-
-**March 1, 2024:** New [blog post](diary/2024-themes.html) about this year and my absence.
 
 *Past updates can be seen [here](updates.html).*
 
@@ -99,6 +100,7 @@ query = NULL
 ```
 "I'm the Rain" by inabacumori feat. Nightcord at 25:00
 </center>
+
 
 ::::
   
