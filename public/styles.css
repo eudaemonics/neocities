@@ -39,6 +39,13 @@ article {
     min-width: 45em;
 }
 
+blockquote{
+    background-color: var(--bg);
+    margin: 1.5em;
+    padding: 1em;
+    border-left: .5em solid var(--highlight);
+}
+
 body {
     font-family: monospace;
     color: var(--text);
