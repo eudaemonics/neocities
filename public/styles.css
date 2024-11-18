@@ -31,12 +31,15 @@ a:hover {
 
 article {
     background: var(--raised-bg);
-    border: dotted black 3px;
+    border: dotted var(--highlight) 3px;
+    padding: 2em;
     border-radius: 15px;
-    margin: 1em auto;
-    padding: 2em 2em;
-    max-width: 50em;
-    min-width: 45em;
+    margin: 1rem auto;
+    max-width:45em;
+}
+
+#container{
+    max-width:75;
 }
 
 blockquote{
@@ -58,8 +61,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
-    max-width: 50em;
-    
+    max-width: 45em;
 }
 
 footer{
@@ -85,6 +87,10 @@ hr{
     width:25rem;
 }
 
+img{
+    max-width:45%;
+}
+
 .userbox{
     max-width: 45%;
 }
@@ -94,9 +100,8 @@ hr{
     border: dotted 2px;
     border-radius: 15px;
     margin: 0 auto;
-    padding: 2em 2em;
+    padding: 2em;
     max-width: 45em;
-
     text-align: center;
 }
 
@@ -114,7 +119,7 @@ hr{
 
 p{
     margin: 2em auto;
-    max-width: 50em;
+    max-width: 35rem;
 }
 
 .post-date{
