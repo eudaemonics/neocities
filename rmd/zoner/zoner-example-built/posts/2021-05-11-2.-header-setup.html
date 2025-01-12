@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>2. Header Setup</title>
+<link rel="icon" href="../images/favicon.png" type="image/x-icon">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<link href="../style/style.css" rel="stylesheet" type="text/css" media="all">
+</head>
+<body>
+<div id="container">
+<header id="header">
+
+<ul>
+<li><a href="../index.html">Home</a></li>
+<li><a href="../archive.html">Archive</a></li>
+<li><a href="../about.html">About</a></li>
+</ul>
+<!-- -->
+<ul>
+<li><a href="../feed.xml">RSS</a></li>
+</ul>
+<hr>
+</header>
+<article id="content">
+<h1>2. Header Setup</h1>
+<h4>11 May 2021</h4>
+<p>Your <code>header.md</code> will traditionally serve as the navigation bar for the site. It should contain links to all the pages you'd like people to visit.</p>
+<p>This is what this site's header looks like:</p>
+<code>
+<blockquote>
+&lt;zone&gt;<br>
+&lt;rss-title&gt;Zoner&lt;/rss-title&gt;<br>
+&lt;rss-description&gt;This is where I write about blogging with Zoner!&lt;/rss-description&gt;<br>
+&lt;rss-link&gt;https://zone-builder.neocities.org/&lt;/rss-link&gt;<br>
+&lt;/zone&gt;<br>
+<br>
++ [Home](./index.html)<br>
++ [Archive](./archive.html)<br>
++ [About](./about.html)<br>
+<br>
+&lt;!-- --&gt;<br>
+<br>
++ [RSS](./feed.xml)<br>
+<br>
+---
+</blockquote>
+</code>
+<p>Zoner adds the <code>.html</code> at the end of links automatically, so you don't have to worry about them when writing a link. Any other file extensions, like <code>.xml</code> or an image, have to be explicit though.</p>
+<p>A quick Markdown overview:</p>
+<ul>
+<li><code>+</code> is for writing unordered lists.</li>
+<li>A link is written with the text inside of brackets and the url inside of parentheses following it <code>[Text](Link)</code>.</li>
+<li>
+<ul>
+<li>If you want to link to Zoner site files, use the syntax above, it always starts in the root directory; so linking to a post would be <code>./posts/date-post-name</code>.</li>
+</ul>
+</li>
+<li>You can use html inside of your Markdown files for specialized formatting.</li>
+</ul>
+<p>The <code>&lt;zone&gt;</code> tag is where your metadata will exist for generating an RSS feed and for appending a Disqus to your posts.</p>
+<p>The available tags are:</p>
+<ul>
+<li><code>&lt;rss-title&gt;</code>: Title of your feed. (Required for RSS)</li>
+<li><code>&lt;rss-description&gt;</code>: Description of your blog. (Required for RSS)</li>
+<li><code>&lt;rss-link&gt;</code>: The link to your site. (Required for RSS)</li>
+<li><code>&lt;rss-language&gt;</code>: Defaults to 'en'.</li>
+<li><code>&lt;rss-ttl&gt;</code>: Defaults to '1440'.</li>
+<li><code>&lt;disqus&gt;</code>: Put your Disqus-snippet in here. (Required for Disqus)</li>
+</ul>
+<p>A <code>&lt;zone&gt;</code> is not necessary if you don't want an RSS or Disqus.</p>
+<nav id="nextprev"><a href="./2021-05-12-1.-zone-structure.html">« Next Post</a> | <a href="../index.html">Home</a> | <a href="./2021-05-10-3.-theming.html">Previous Post »</a></nav>
+</article>
+<footer id="footer">
+<hr>
+<p>This blog is written by <a href="https://twitter.com/aynik_co">Ryan Trawick</a>, built with <a href="https://sr.ht/%7Eryantrawick/zoner/">Zoner</a>, and hosted by <a href="https://neocities.org/">Neocities</a>!</p>
+</footer>
+</div>
+</body>
+</html>

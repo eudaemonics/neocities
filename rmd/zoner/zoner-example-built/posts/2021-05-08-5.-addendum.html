@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>5. Addendum</title>
+<link rel="icon" href="../images/favicon.png" type="image/x-icon">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<link href="../style/style.css" rel="stylesheet" type="text/css" media="all">
+</head>
+<body>
+<div id="container">
+<header id="header">
+
+<ul>
+<li><a href="../index.html">Home</a></li>
+<li><a href="../archive.html">Archive</a></li>
+<li><a href="../about.html">About</a></li>
+</ul>
+<!-- -->
+<ul>
+<li><a href="../feed.xml">RSS</a></li>
+</ul>
+<hr>
+</header>
+<article id="content">
+
+
+<h1>5. Addendum</h1>
+
+<p>I forgot to mention two things!</p>
+
+<p>You can add a <code>_</code> to the end of a post's or page's filename, and then type a new title after it. Example:</p>
+
+<p><code>archive_Zone Archive.md</code></p>
+
+<p>Zoner will build this to use <code>Zone Archive</code> for the title in the browser's tab, if you use this feature on a post then the post's page title will also use everything after the underscore; this is so you can format and capitalize your post title however you like.</p>
+
+<p>This also allows you to write more complex names for pages or update a page's name without worrying about fixing links. Links should not reference the underscore or anything after it, it's just for Zoner and will be stripped when building.</p>
+
+<p>There are certain characters that can't live in filenames though, like <code>|</code> and <code>?</code> and so on. To use these, simply append <code>_None</code> to any post. Then you can write your title manually in the Markdown, the filename's title will still be used in the browser tab however. Just remember that this method will not build the date. Oops, it looks like I forgot to add it here!</p>
+
+<hr>
+
+<p>Lastly, if you want a custom RSS description for a page, you can use the special <code>&lt;rss&gt;</code> tag at the top of your post and fill it with any description you want. Otherwise Zoner will use the first paragraph.</p>
+<nav id="nextprev"><a href="./2021-05-09-4.-hosting.html">« Next Post</a> | <a href="../index.html">Home</a></nav>
+</article>
+<footer id="footer">
+<hr>
+<p>This blog is written by <a href="https://twitter.com/aynik_co">Ryan Trawick</a>, built with <a href="https://sr.ht/%7Eryantrawick/zoner/">Zoner</a>, and hosted by <a href="https://neocities.org/">Neocities</a>!</p>
+</footer>
+</div>
+</body>
+</html>

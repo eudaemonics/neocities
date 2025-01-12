@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Rmarkdown Ssg</title>
+<link rel="icon" href="../images/favicon.png" type="image/x-icon">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<link href="../style/style.css" rel="stylesheet" type="text/css" media="all">
+</head>
+<body>
+<div id="container">
+<header id="header">
+
+<ul>
+<li><a href="../index.html">Home</a></li>
+<li><a href="../archive.html">Archive</a></li>
+<li><a href="../about.html">About</a></li>
+</ul>
+<!-- -->
+<ul>
+<li><a href="../feed.xml">RSS</a></li>
+</ul>
+<hr>
+</header>
+<article id="content">
+<h1> Rmarkdown Ssg</h1>
+<h4>2 March 2024</h4>
+<p>I've been hyperfixating like crazy on updating my site because apparently using a data science IDE to try and make a somewhat customized site is like a puzzle to my brain?</p>
+<p>So anyway: I used R a bit in college and got semi comfortable with it. I was interested in how it takes R markdown files and converts them to HTML with some fun built in capabilities, so I wanted to see what it would be like to make a website with this.</p>
+<p>To be frank: I have 0 design skills and I don't like testing on so many displays, <em>especially</em> since I really only have 2 devices to check on. Something that could <em>kind of</em> automate the responsiveness and where I could easily reuse bits of HTML with the package htmltool was appealing to me...</p>
+<p>So here were my goals:</p>
+<ol>
+<li>Create a somewhat responsive site in RMarkdown with the built-in SSG editor that would also hold a lot of different media.</li>
+<li>Customize it with my own theme and CSS</li>
+<li>Use <a href="https://github.com/bcomnes/deploy-to-neocities">deploy to neocities</a> to store my neocities files on Github, have more version control, and easily push updates to my site without driving myself batty.</li>
+</ol>
+<h3>why would you do this?</h3>
+<p>I'm not sure, honestly. I'm stubborn? I also didn't really feel like learning an SSG just for something I do on the side as a hobby, but I plan to learn an SSG in the future. Partially I was inspired by <a href="https://neossg.neocities.org/">NeoSSG</a> which is a webring for neocities users that use static site generators.</p>
+<p>I think my word of advice to everyone reading this is: Don't use R if you're going to have a lot of pages and subfolders. This killed me since I, for some reason, can't plug in a filepath to a _site YAML on RStudio's native markdown-&gt;HTML site generator. Also: I hate YAMLs. You guys have <em>no</em> idea how long it took me to get deploy-to-neocities to work on Github.</p>
+<p><img src="img/git-actions.png" alt="A screenshot of github action history. Most of these processes failed"></p>
+<p>Or maybe you can get an idea from this screenshot.</p>
+<h3>would you recommend doing this?</h3>
+<p>Haha. No. Unless you really like a challenge and are <em>very</em> comfortable with markdown in lieu of HTML: I can't really recommend using RStudio to create a site. The average neocities user is <em>not</em> the target demographic, and I'm just weird. It's intended for data scientists that just need a blog, a way to display their data, teachers who need a site for their course, and not people on the internet trying to make funny creative projects... But here are my takeaways:</p>
+<p><strong>Pros:</strong></p>
+<ul>
+<li>This works for people with <em>stupid simple sites.</em> So if you're hosting everything in your root directory, this might be the solution for you.</li>
+<li>Good for people that already use R, for some reason. If you're weird and have history of working with data science it might be fine for you.</li>
+<li>The plugins available in R make formatting so easy for me that I really don't want to let go of it.</li>
+</ul>
+<p><strong>Cons:</strong></p>
+<ul>
+<li>RStudio's SSG doesn't read subdirectories, so working with most of my diary posts in a subfolder was kind of hell.</li>
+<li>This is stupid difficult if you're not familiar with YAMLs,</li>
+<li>I used a lot of different R packages for this, so I don't recommend working with it unless you're completely fine with installing different packages (i.e. my gallery uses an R library called pixture)</li>
+<li>Since I'm using deploy to neocities, I have to manually remove all of my .Rmd files to a separate folder before pushing to the site, since neocities doesn't accept .Rmd. You can see this highly inefficient process on my <a href="https://github.com/eudaemonics/neocities">github</a>.</li>
+</ul>
+<h3>disclaimer: I'm stupid</h3>
+<p>My 'journey' with RMarkdown to build a site has been like, 4 days long counting the time I spent on my professional site. So I <em>do not know everything.</em> I am frankly rather stupid and that's fine. I'm trying to <a href="https://www.swyx.io/learn-in-public">learn in public</a>. Even if I've embarrassed myself, at least I've maybe shown the starry-eyed RStudio user wanting to try to hack it for neocities that this is not a good idea. If people have feedback on R or are comfortable with using it as an SSG, I probably look like an idiot! And that's fine. This is a learning experience for me and it's more fun than anything else.</p>
+<h3>lessons?</h3>
+<p>I had fun brute-forcing RStudio to do what I want, but I think I'll just be using <a href="https://bookdown.org/yihui/blogdown/">blogdown</a> in the future since it:</p>
+<ol>
+<li>Has better documentation</li>
+<li>Is more flexible since it uses <a href="https://gohugo.io/">Hugo</a> which is a pretty popular SSG</li>
+<li>Supports multiple pages and subdirectories.</li>
+</ol>
+<p>Personally I didn't want to use Hugo because...it's popular. I'm pretentious! Sue me. I might check out Distill or Quarto first, but these are both very corporate and very catered to data scientists and professionals... I <em>might</em> like to call myself a data scientist, but this site is <em>not</em> for those projects!</p>
+<p>(Well, maybe I'll have some fun with it in the future?)</p>
+<!-- begin wwww.htmlcommentbox.com -->
+ <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">Widget</a> is loading comments...</div>
+ <link rel="stylesheet" type="text/css" href="https://www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0">
+ <script type="text/javascript" id="hcb"> /*<!--*/ if(!window.hcb_user){hcb_user={};} (function(){var s=document.createElement("script"), l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"), h="https://www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&mod=%241%24wq1rdBcg%24w9eytFO%2FEemAy9dJweexS1"+"&opts=16798&num=10&ts=1736115230192");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})(); /*-->*/ </script>
+<!-- end www.htmlcommentbox.com -->
+<nav id="nextprev"><a href="./2024-04-22.-gdocs-blog.html">« Next Post</a> | <a href="../index.html">Home</a> | <a href="./2024-03-01.-2024-yearly-theme.html">Previous Post »</a></nav>
+</article>
+<footer id="footer">
+<hr>
+<p>This blog is written by <a href="https://twitter.com/aynik_co">Ryan Trawick</a>, built with <a href="https://sr.ht/%7Eryantrawick/zoner/">Zoner</a>, and hosted by <a href="https://neocities.org/">Neocities</a>!</p>
+</footer>
+</div>
+</body>
+</html>

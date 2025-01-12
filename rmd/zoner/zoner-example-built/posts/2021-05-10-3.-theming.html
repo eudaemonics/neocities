@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>3. Theming</title>
+<link rel="icon" href="../images/favicon.png" type="image/x-icon">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<link href="../style/fantasy.css" rel="stylesheet" type="text/css" media="all">
+</head>
+<body>
+<div id="container">
+<header id="header">
+
+<ul>
+<li><a href="../index.html">Home</a></li>
+<li><a href="../archive.html">Archive</a></li>
+<li><a href="../about.html">About</a></li>
+</ul>
+<!-- -->
+<ul>
+<li><a href="../feed.xml">RSS</a></li>
+</ul>
+<hr>
+</header>
+<article id="content">
+<h1>3. Theming</h1>
+<h4>10 May 2021</h4>
+
+<p>Zoner uses the same CSS class names and ids as Zonelets, so any Zonelets theme automatically works!</p>
+<p>Check out the <a href="https://zonelets.net/posts/2020-11-08-Theme-Gallery.html">Theme Gallery</a> on Zonelets to see what's possible.</p>
+<p>If you want to use a different theme on a page, like this one does, you can add a <code>&lt;style&gt;</code> tag and put the name of a style sheet in your <code>/style</code> folder, like so:</p>
+<p><code>&lt;style&gt;fantasy&lt;/style&gt;</code></p>
+<p>Zoner will then replace that page's style with the one you asked for, just make sure it exists in the style directory!</p>
+<h2>Archives</h2>
+<p>This is a pretty short post, so I guess I'll also explain how generating an archive works:</p>
+<p>In most blogs you'll want an archive page so users can see everything you've written. That's what the <code>&lt;archive&gt;</code> tag is for. Zoner will find this tag and fill it in with a list of your posts.</p>
+<p>But you may also want a recent posts list on your home page, you don't want it to be super long though. No worries! Add a <code>count</code> and <code>more</code> attribute to the tag like so:</p>
+<p><code>&lt;archive count=&quot;2&quot; more=&quot;./archive&quot;&gt;&lt;/archive&gt;</code></p>
+<p>This will generate this:</p>
+<p><div id="postlistdiv">
+<ul>
+<li><a href="../posts/2024-04-22.-gdocs-blog.html">2024-04-22 »  Gdocs Blog</a></li>
+<li><a href="../posts/2024-03-02.-rmarkdown-ssg.html">2024-03-02 »  Rmarkdown Ssg</a></li>
+<li class="moreposts"><a href="../archive.html">» more posts</a></li>
+</ul>
+</div></p>
+<p><code>count</code> is how many posts will be displayed, if it's greater or equal to the current post count a &quot;more posts&quot; link will not appear. <code>more</code> is the link to your archive page, which is required if you limit your count.</p>
+<nav id="nextprev"><a href="./2021-05-11-2.-header-setup.html">« Next Post</a> | <a href="../index.html">Home</a> | <a href="./2021-05-09-4.-hosting.html">Previous Post »</a></nav>
+</article>
+<footer id="footer">
+<hr>
+<p>This blog is written by <a href="https://twitter.com/aynik_co">Ryan Trawick</a>, built with <a href="https://sr.ht/%7Eryantrawick/zoner/">Zoner</a>, and hosted by <a href="https://neocities.org/">Neocities</a>!</p>
+</footer>
+</div>
+</body>
+</html>

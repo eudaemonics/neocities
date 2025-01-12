@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>	<title>Zoner</title>
+	<description>This is where I write about blogging with Zoner!</description>
+	<link>https://zone-builder.neocities.org/</link>
+	<atom:link href="https://zone-builder.neocities.org/" rel="self"></atom:link>
+	<language>en</language>
+	<lastBuildDate>
+Sun, 12 Jan 2025 00:45:15 +0000
+</lastBuildDate>
+	<ttl>1440</ttl>
+
+	<item>
+		<title>Specks of Time</title>
+		<description>First blog post, hurrah!
+I’ve written blog posts on things like Tumblr before, but this feels like a step into a new world. Very grateful to have discovered zonelets and roccie which helped me figure out how to set up this little subsection of my website.</description>
+		<link>https://zone-builder.neocities.org/posts/2022-06-05.-specks-of-time.html</link>
+		<pubDate>
+			Sun, 05 Jun 2022 00:00:00 +0000
+		</pubDate>
+	</item>
+
+	<item>
+		<title>Year of the Water Rabbit</title>
+		<description>It sure has been a while since I last updated... Fun fact, I wrote this in January, but I cut my finger so I had to wait a while for it to heal.</description>
+		<link>https://zone-builder.neocities.org/posts/2023-02-06.-year-of-the-water-rabbit.html</link>
+		<pubDate>
+			Mon, 06 Feb 2023 00:00:00 +0000
+		</pubDate>
+	</item>
+
+	<item>
+		<title>2024 Yearly themes</title>
+		<description>Wow, it's been a while since I updated huh? I think I pushed out an update before I got to write up this blog post while I was testing deploy to neocities. At least if everything was working correctly.</description>
+		<link>https://zone-builder.neocities.org/posts/2024-03-01.-2024-yearly-theme.html</link>
+		<pubDate>
+			Fri, 01 Mar 2024 00:00:00 +0000
+		</pubDate>
+	</item>
+
+	<item>
+		<title>Making a site in RStudio</title>
+		<description>I've been hyperfixating like crazy on updating my site because apparently using a data science IDE to try and make a somewhat customized site is like a puzzle to my brain?</description>
+		<link>https://zone-builder.neocities.org/posts/2024-03-02.-rmarkdown-ssg.html</link>
+		<pubDate>
+			Sat, 02 Mar 2024 00:00:00 +0000
+		</pubDate>
+	</item>
+
+	<item>
+		<title>Ditch Google Docs and Get a Blog</title>
+		<description>Soooo writing (fan)fiction and working on some of my interactive fiction projects has been hard. So here I am with another brain dump-y post that I was finally spurred into writing because of a lovely essay I saw on Twitter about butch and gnc girls in Japanese idol games...which I lost track of.</description>
+		<link>https://zone-builder.neocities.org/posts/2024-04-22.-gdocs-blog.html</link>
+		<pubDate>
+			Mon, 22 Apr 2024 00:00:00 +0000
+		</pubDate>
+	</item>
+
+	<item>
+		<title>Weeknotes 001</title>
+		<description>Wanted to attempt doing my version of weeknotes, but so I'll see if this is really useful or not... This was originally posted on my mataroa blog which I use for my professional life, but I realized I'd rather post them here. It gives me more of a reason to use neocities!</description>
+		<link>https://zone-builder.neocities.org/posts/2025-01-04.-weeknotes-001.html</link>
+		<pubDate>
+			Sat, 04 Jan 2025 00:00:00 +0000
+		</pubDate>
+	</item>
+
+	<item>
+		<title>Weeknotes 002</title>
+		<description>Not much to talk about this week. I was doing a lot of personal reflection that's most likely better suited for a longer form blog post.</description>
+		<link>https://zone-builder.neocities.org/posts/2025-01-11.-weeknotes-002.html</link>
+		<pubDate>
+			Sat, 11 Jan 2025 00:00:00 +0000
+		</pubDate>
+	</item>
+
+</channel>
+</rss>

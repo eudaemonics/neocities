@@ -1,0 +1,89 @@
+---
+title: "R Markdown as an SSG"
+output: 
+  html_document:
+    fig_caption: FALSE
+    includes:
+      after_body: ../footer.html
+css: "../indexstyle.css"
+date: "March 2, 2024<br>Last update: `r format(Sys.time(), '%d %B, %Y')`"
+---
+
+
+::: {.container class="fluid-row d-flex flex-wrap align-content-stretch"}
+
+```{=html}
+```{r, echo=FALSE, results='asis'}
+xfun::file_string('diarymenu.html')
+```
+```
+
+::::{.col-md-12}
+I've been hyperfixating like crazy on updating my site because apparently using a data science IDE to try and make a somewhat customized site is like a puzzle to my brain?
+
+So anyway: I used R a bit in college and got semi comfortable with it. I was interested in how it takes R markdown files and converts them to HTML with some fun built in capabilities, so I wanted to see what it would be like to make a website with this.
+
+To be frank: I have 0 design skills and I don't like testing on so many displays, *especially* since I really only have 2 devices to check on. Something that could *kind of* automate the responsiveness and where I could easily reuse bits of HTML with the package htmltool was appealing to me...
+
+So here were my goals:
+
+1. Create a somewhat responsive site in RMarkdown with the built-in SSG editor that would also hold a lot of different media.
+2. Customize it with my own theme and CSS
+3. Use [deploy to neocities](https://github.com/bcomnes/deploy-to-neocities) to store my neocities files on Github, have more version control, and easily push updates to my site without driving myself batty.
+
+### why would you do this?
+I'm not sure, honestly. I'm stubborn? I also didn't really feel like learning an SSG just for something I do on the side as a hobby, but I plan to learn an SSG in the future. Partially I was inspired by [NeoSSG](https://neossg.neocities.org/) which is a webring for neocities users that use static site generators.
+
+I think my word of advice to everyone reading this is: Don't use R if you're going to have a lot of pages and subfolders. This killed me since I, for some reason, can't plug in a filepath to a _site YAML on RStudio's native markdown->HTML site generator. Also: I hate YAMLs. You guys have *no* idea how long it took me to get deploy-to-neocities to work on Github.
+
+![A screenshot of github action history. Most of these processes failed](img/git-actions.png)
+
+Or maybe you can get an idea from this screenshot.
+
+
+### would you recommend doing this?
+
+Haha. No. Unless you really like a challenge and are *very* comfortable with markdown in lieu of HTML: I can't really recommend using RStudio to create a site. The average neocities user is *not* the target demographic, and I'm just weird. It's intended for data scientists that just need a blog, a way to display their data, teachers who need a site for their course, and not people on the internet trying to make funny creative projects... But here are my takeaways:
+
+**Pros:**
+
+* This works for people with *stupid simple sites.* So if you're hosting everything in your root directory, this might be the solution for you.
+* Good for people that already use R, for some reason. If you're weird and have history of working with data science it might be fine for you.
+* The plugins available in R make formatting so easy for me that I really don't want to let go of it.
+
+**Cons:**
+
+* RStudio's SSG doesn't read subdirectories, so working with most of my diary posts in a subfolder was kind of hell.
+* This is stupid difficult if you're not familiar with YAMLs,
+* I used a lot of different R packages for this, so I don't recommend working with it unless you're completely fine with installing different packages (i.e. my gallery uses an R library called pixture)
+* Since I'm using deploy to neocities, I have to manually remove all of my .Rmd files to a separate folder before pushing to the site, since neocities doesn't accept .Rmd. You can see this highly inefficient process on my [github](https://github.com/eudaemonics/neocities).
+
+### disclaimer: I'm stupid
+My 'journey' with RMarkdown to build a site has been like, 4 days long counting the time I spent on my professional site. So I *do not know everything.* I am frankly rather stupid and that's fine. I'm trying to [learn in public](https://www.swyx.io/learn-in-public). Even if I've embarrassed myself, at least I've maybe shown the starry-eyed RStudio user wanting to try to hack it for neocities that this is not a good idea. If people have feedback on R or are comfortable with using it as an SSG, I probably look like an idiot! And that's fine. This is a learning experience for me and it's more fun than anything else.
+
+### lessons?
+I had fun brute-forcing RStudio to do what I want, but I think I'll just be using [blogdown](https://bookdown.org/yihui/blogdown/) in the future since it:
+
+1. Has better documentation
+2. Is more flexible since it uses [Hugo](https://gohugo.io/) which is a pretty popular SSG
+3. Supports multiple pages and subdirectories.
+
+Personally I didn't want to use Hugo because...it's popular. I'm pretentious! Sue me. I might check out Distill or Quarto first, but these are both very corporate and very catered to data scientists and professionals... I *might* like to call myself a data scientist, but this site is *not* for those projects!
+
+(Well, maybe I'll have some fun with it in the future?)
+::::
+
+:::
+
+::::{.container}
+
+:::::{.col-md-12}
+
+```{=html}
+```{r, echo=FALSE, results='asis'}
+xfun::file_string('commentbox.html')
+```
+```
+:::::
+
+::::

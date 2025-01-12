@@ -6,7 +6,7 @@
 	<atom:link href="https://zone-builder.neocities.org/" rel="self"></atom:link>
 	<language>en</language>
 	<lastBuildDate>
-Sun, 05 Jan 2025 22:50:33 +0000
+Sun, 12 Jan 2025 00:45:15 +0000
 </lastBuildDate>
 	<ttl>1440</ttl>
 
@@ -59,9 +59,18 @@ I’ve written blog posts on things like Tumblr before, but this feels like a st
 	<item>
 		<title>Weeknotes 001</title>
 		<description>Wanted to attempt doing my version of weeknotes, but so I'll see if this is really useful or not... This was originally posted on my mataroa blog which I use for my professional life, but I realized I'd rather post them here. It gives me more of a reason to use neocities!</description>
-		<link>https://zone-builder.neocities.org/posts/2025-01-04.html</link>
+		<link>https://zone-builder.neocities.org/posts/2025-01-04.-weeknotes-001.html</link>
 		<pubDate>
 			Sat, 04 Jan 2025 00:00:00 +0000
+		</pubDate>
+	</item>
+
+	<item>
+		<title>Weeknotes 002</title>
+		<description>Not much to talk about this week. I was doing a lot of personal reflection that's most likely better suited for a longer form blog post.</description>
+		<link>https://zone-builder.neocities.org/posts/2025-01-11.-weeknotes-002.html</link>
+		<pubDate>
+			Sat, 11 Jan 2025 00:00:00 +0000
 		</pubDate>
 	</item>
 

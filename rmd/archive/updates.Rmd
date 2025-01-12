@@ -1,0 +1,34 @@
+---
+title: "updates ✦ arka ruins"
+output: 
+  html_document:
+    fig_caption: FALSE
+    includes:
+      in_header: header.html
+      after_body: footer.html
+css: "indexstyle.css"
+---
+
+# updates 
+
+:::{.container}
+
+```{=html}
+```{r, echo=FALSE, results='asis'}
+xfun::file_string('menu.html')
+```
+```
+## 2024
+**March 1, 2024:** New [blog post](diary/2024-themes.html) about this year and my absence.
+
+**February 29, 2024:** Transitioned from brackets to RStudio since I'm more comfortable with this environment. Got rid of the markdown dimension since clearly it didn't help me post more.  
+
+## 2023
+**February 6, 2023:** The big return! I've added a few pages and added a new blog post. Check out resources, links, and the markdown dimension!  
+
+## 2022
+**June 6, 2022:** Gave everything a bit of a facelift, styled the diary page and made the site a bit more natural to read!  
+**June 5, 2022:** Diary page added  
+**May 23, 2022:** About page added  
+**May 22, 2022:** Site landing page launched
+:::

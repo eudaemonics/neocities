@@ -1,0 +1,51 @@
+---
+title: "links ✦ arka ruins"
+output: 
+  html_document:
+    fig_caption: FALSE
+    includes:
+      in_header: header.html
+      after_body: footer.html
+css: "indexstyle.css"
+---
+
+:::{.container}
+
+```{=html}
+```{r, echo=FALSE, results='asis'}
+xfun::file_string('menu.html')
+```
+```
+
+A collection of my neocities neighbors and sites that personally inspire me. If you're a neighbor and want to be included on this site, send me a message or comment on my site. 
+
+If you want to link to my site, you can use this button (Please no hotlinking, save it to your site!): ![](img/link/arkaruins.png)
+
+## neo-neighbors
+<center>
+[![](img/link/calico.png)](https://calico.neocities.org)
+[![A button with flashing letters that spell out "cattnep"](img/link/cattnep.gif)](https://cattnep.neocities.org)
+[![A rat emoji on a dark purple background. The text reads "cavern of rememberance"](img/link/cavernofrememberance.gif)](https://cavernofremembrance.neocities.org)
+[![A button with a gray anthropomorphic mouse. The text reads "DETHL"](img/link/dethl.png)](https://dethl.neocities.org)
+[![A pink button with an outline of a dragon on it. The text reads "dragon shores" ](img/link/dragonshores.png)](https://dragonshores.neocities.org)
+[![A button with kale on the background. The text reads "Kalechips".](img/link/kalechips.png)](https://kalechips.net)
+[![A drawing of a pink, spherical cat on a rainbow background.](img/link/orbees.png)](orbees.neocities.org)
+[![A sketch with the text "Owl's Roost" next to it.](img/link/owlsroost.webp)](https://owlsroost.xyz/)
+[![An animated multi-eyed feathered being with animated text that reads "roccie" next to it.](img/link/roccie.gif)](https://roccie.neocities.org) [![A green button with dark green text on it that reads "NATHUB"](img/link/splattacks.gif)](https://splattacks.neocities.org)
+[![A dark gray button with a blue circle on it. Inside the blue circle is a rotating 8-pointed star. There is white text next to the circle that reads "VM's Numbers Station"](img/link/vms-number-station.gif)](https://vm70.neocities.org)
+</center>
+
+### nonbutton links
+
+* [Scketchzone](https://scketchzone.com)
+* [Batzjam](https://batzjam.neocities.org)
+
+## inspirations
+<center>
+[![A button with a black background and various colored shapes on it. "Frills" is written in a pink and playful text.](img/link/frills.png)](https://frills.dev)
+[![A white pegasus with sparkles surrounding it. On its back is written "Lost Letters"](img/link/lostletters.gif)](https://lostletters.neocities.org)
+[![An animated button with an anthropomorphic cat jumping into frame. The text reads "Nonkiru"](img/link/nonkiru.gif)](https://nonkiru.art)
+[![A drawing of the voicebank Kafu and the virtual singer Kaf](img/link/virtualobserver.png)](https://virtualobserver.moe) 
+</center>
+
+::::
