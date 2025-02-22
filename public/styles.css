@@ -10,7 +10,7 @@
 body{
     font-family: monospace;
     margin: auto;
-    max-width:45%;
+    max-width:75%;
     background-color: var(--darkbg);
     color: var(--darktext);
     list-style-type: "✦ "
