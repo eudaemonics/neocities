@@ -1,14 +1,14 @@
 :root {
-	--main-text-color: black;
-	--main-bg-color: white;
+	--main-text-color: #444473;
+	--main-bg-color: #edf9f4;
 	--main-transparent: rgba(0, 0, 0, .15);
 	--main-small-text-color: rgba(0, 0, 0, .65);
 }
 @media (prefers-color-scheme: dark) {
 	:root {
-		--main-text-color: white;
-		--main-bg-color: #1b1b1b;
-		--main-transparent: rgba(255, 255, 255, .15);
+		--main-text-color: #DBFDEF;
+		--main-bg-color: #444473;
+		--main-transparent: #60e2b526;
 		--main-small-text-color: rgba(255, 255, 255, .45);
 	}
 }

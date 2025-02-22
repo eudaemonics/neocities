@@ -1,2 +1,2 @@
 ---
-This blog is built with [Zoner](https://sr.ht/~ryantrawick/zoner/) and hosted by [Neocities](https://neocities.org/)!
+return [home](https://klug.neocities.org).
