@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>	<title>diary</title>
 	<description>Brain dump and diary entries.</description>
-	<link>https://klug.neocities.org/diary</link>
-	<atom:link href="https://klug.neocities.org/diary" rel="self"></atom:link>
+	<link>https://klug.neocities.org/diary/feed.xml</link>
+	<atom:link href="https://klug.neocities.org/diary/feed.xml" rel="self"></atom:link>
 	<language>en</language>
 	<lastBuildDate>
-Mon, 24 Feb 2025 04:02:02 +0000
+Mon, 24 Feb 2025 04:16:31 +0000
 </lastBuildDate>
 	<ttl>1440</ttl>
 
@@ -14,7 +14,7 @@ Mon, 24 Feb 2025 04:02:02 +0000
 		<title>Specks of Time</title>
 		<description>First blog post, hurrah!
 I’ve written blog posts on things like Tumblr before, but this feels like a step into a new world. Very grateful to have discovered zonelets and roccie which helped me figure out how to set up this little subsection of my website.</description>
-		<link>https://klug.neocities.org/diaryposts/2022-06-05.-specks-of-time.html</link>
+		<link>https://klug.neocities.org/diary/feed.xmlposts/2022-06-05.-specks-of-time.html</link>
 		<pubDate>
 			Sun, 05 Jun 2022 00:00:00 +0000
 		</pubDate>
@@ -23,7 +23,7 @@ I’ve written blog posts on things like Tumblr before, but this feels like a st
 	<item>
 		<title>Year of the Water Rabbit</title>
 		<description>It sure has been a while since I last updated... Fun fact, I wrote this in January, but I cut my finger so I had to wait a while for it to heal.</description>
-		<link>https://klug.neocities.org/diaryposts/2023-02-06.-year-of-the-water-rabbit.html</link>
+		<link>https://klug.neocities.org/diary/feed.xmlposts/2023-02-06.-year-of-the-water-rabbit.html</link>
 		<pubDate>
 			Mon, 06 Feb 2023 00:00:00 +0000
 		</pubDate>
@@ -32,7 +32,7 @@ I’ve written blog posts on things like Tumblr before, but this feels like a st
 	<item>
 		<title>2024 Yearly themes</title>
 		<description>Wow, it's been a while since I updated huh? I think I pushed out an update before I got to write up this blog post while I was testing deploy to neocities. At least if everything was working correctly.</description>
-		<link>https://klug.neocities.org/diaryposts/2024-03-01.-2024-yearly-theme.html</link>
+		<link>https://klug.neocities.org/diary/feed.xmlposts/2024-03-01.-2024-yearly-theme.html</link>
 		<pubDate>
 			Fri, 01 Mar 2024 00:00:00 +0000
 		</pubDate>
@@ -41,7 +41,7 @@ I’ve written blog posts on things like Tumblr before, but this feels like a st
 	<item>
 		<title>Making a site in RStudio</title>
 		<description>I've been hyperfixating like crazy on updating my site because apparently using a data science IDE to try and make a somewhat customized site is like a puzzle to my brain?</description>
-		<link>https://klug.neocities.org/diaryposts/2024-03-02.-rmarkdown-ssg.html</link>
+		<link>https://klug.neocities.org/diary/feed.xmlposts/2024-03-02.-rmarkdown-ssg.html</link>
 		<pubDate>
 			Sat, 02 Mar 2024 00:00:00 +0000
 		</pubDate>
@@ -50,7 +50,7 @@ I’ve written blog posts on things like Tumblr before, but this feels like a st
 	<item>
 		<title>Ditch Google Docs and Get a Blog</title>
 		<description>Soooo writing (fan)fiction and working on some of my interactive fiction projects has been hard. So here I am with another brain dump-y post that I was finally spurred into writing because of a lovely essay I saw on Twitter about butch and gnc girls in Japanese idol games...which I lost track of.</description>
-		<link>https://klug.neocities.org/diaryposts/2024-04-22.-gdocs-blog.html</link>
+		<link>https://klug.neocities.org/diary/feed.xmlposts/2024-04-22.-gdocs-blog.html</link>
 		<pubDate>
 			Mon, 22 Apr 2024 00:00:00 +0000
 		</pubDate>
@@ -59,7 +59,7 @@ I’ve written blog posts on things like Tumblr before, but this feels like a st
 	<item>
 		<title>Weeknotes 001</title>
 		<description>Wanted to attempt doing my version of weeknotes, but so I'll see if this is really useful or not... This was originally posted on my mataroa blog which I use for my professional life, but I realized I'd rather post them here. It gives me more of a reason to use neocities!</description>
-		<link>https://klug.neocities.org/diaryposts/2025-01-04.-weeknotes-001.html</link>
+		<link>https://klug.neocities.org/diary/feed.xmlposts/2025-01-04.-weeknotes-001.html</link>
 		<pubDate>
 			Sat, 04 Jan 2025 00:00:00 +0000
 		</pubDate>
@@ -68,7 +68,7 @@ I’ve written blog posts on things like Tumblr before, but this feels like a st
 	<item>
 		<title>Weeknotes 002</title>
 		<description>Not much to talk about this week. I was doing a lot of personal reflection that's most likely better suited for a longer form blog post.</description>
-		<link>https://klug.neocities.org/diaryposts/2025-01-11.-weeknotes-002.html</link>
+		<link>https://klug.neocities.org/diary/feed.xmlposts/2025-01-11.-weeknotes-002.html</link>
 		<pubDate>
 			Sat, 11 Jan 2025 00:00:00 +0000
 		</pubDate>
@@ -77,7 +77,7 @@ I’ve written blog posts on things like Tumblr before, but this feels like a st
 	<item>
 		<title>Weeknotes 003</title>
 		<description>Wow. I forgot to actually post weeknotes. Well I'm not putting pressure on myself to do this every week especially if I get busy so I should cut myself some slack. My friend Acy also started weeknotes because of me so I'd say everyone is better off following her instead of me haha</description>
-		<link>https://klug.neocities.org/diaryposts/2025-02-09.-weeknotes-003.html</link>
+		<link>https://klug.neocities.org/diary/feed.xmlposts/2025-02-09.-weeknotes-003.html</link>
 		<pubDate>
 			Sun, 09 Feb 2025 00:00:00 +0000
 		</pubDate>
@@ -86,7 +86,7 @@ I’ve written blog posts on things like Tumblr before, but this feels like a st
 	<item>
 		<title>Weeknotes 004</title>
 		<description>This week was kind of a lot. Emotionally, mentally, physically. I feel very drained and nervous about everything, but when don't I.</description>
-		<link>https://klug.neocities.org/diaryposts/2025-02-16.-weeknotes-004.html</link>
+		<link>https://klug.neocities.org/diary/feed.xmlposts/2025-02-16.-weeknotes-004.html</link>
 		<pubDate>
 			Sun, 16 Feb 2025 00:00:00 +0000
 		</pubDate>
@@ -95,7 +95,7 @@ I’ve written blog posts on things like Tumblr before, but this feels like a st
 	<item>
 		<title>Floor themes in In Stars and Time</title>
 		<description>This blog post is really informal and more a place for me to store something I was recently thinking about. These are pretty much unedited messages to my partner of my playthrough of the game In Stars and Time where I was reflecting on the themes of each floor after starting my 7th loop.</description>
-		<link>https://klug.neocities.org/diaryposts/2025-02-17-.ISAT-floor-themes.html</link>
+		<link>https://klug.neocities.org/diary/feed.xmlposts/2025-02-17-.ISAT-floor-themes.html</link>
 		<pubDate>
 			Mon, 17 Feb 2025 00:00:00 +0000
 		</pubDate>
@@ -104,7 +104,7 @@ I’ve written blog posts on things like Tumblr before, but this feels like a st
 	<item>
 		<title>Weeknotes 005</title>
 		<description>I don't really remember what happened this week so this is probably going to be a short-ish? weeknotes...</description>
-		<link>https://klug.neocities.org/diaryposts/2025-02-22.-weeknotes-005.html</link>
+		<link>https://klug.neocities.org/diary/feed.xmlposts/2025-02-22.-weeknotes-005.html</link>
 		<pubDate>
 			Sat, 22 Feb 2025 00:00:00 +0000
 		</pubDate>
@@ -113,7 +113,7 @@ I’ve written blog posts on things like Tumblr before, but this feels like a st
 	<item>
 		<title>In Stars and Time Theories (Again)</title>
 		<description>MAJOR SPOILER WARNING FOR IN STARS AND TIME ACTS 2 AND EARLY ACT 3</description>
-		<link>https://klug.neocities.org/diaryposts/2025-02-23.-ISAT-theories-1.html</link>
+		<link>https://klug.neocities.org/diary/feed.xmlposts/2025-02-23.-ISAT-theories-1.html</link>
 		<pubDate>
 			Sun, 23 Feb 2025 00:00:00 +0000
 		</pubDate>

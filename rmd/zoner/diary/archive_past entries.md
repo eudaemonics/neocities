@@ -1,3 +1,3 @@
-# Zoner Archive
+# All entries
 
 <archive></archive>
