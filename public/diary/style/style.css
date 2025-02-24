@@ -128,15 +128,6 @@ small {
 
 /*HTML COMMENT BOX STYLING*/
 
-
-
-#HCB_comment_box textarea {
-  
-}
-
-/* the entire html comment box container. applies to everything */
-#HCB_comment_box {}
-
 #HCB_comment_box p.error {
   border: 4px solid #f88;
   background-color: #fee;
