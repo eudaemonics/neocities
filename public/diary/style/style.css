@@ -7,7 +7,7 @@
 @media (prefers-color-scheme: dark) {
 	:root {
 		--main-text-color: #DBFDEF;
-		--main-bg-color: #444473;
+		--main-bg-color: #2A2A47;
 		--main-transparent: #60e2b526;
 		--main-small-text-color: rgba(255, 255, 255, .45);
 	}
@@ -70,7 +70,7 @@ a:hover {
 	background: var(--main-transparent);
 }
 img {
-	width: 100%;
+	max-width: 50%;
 	height: auto;
 }
 blockquote {
