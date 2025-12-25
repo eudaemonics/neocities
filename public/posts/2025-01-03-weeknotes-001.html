@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="https://yourwebsitehere.com/rss.xml" rel="alternate" type="application/rss+xml" title="RSS feed for My Cool Blog">
+    <title>arca ruins ❆ Weeknotes 001</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is the description for My Cool Blog!">
+    <link rel="icon" href="../images/favicon.png" type="image/x-icon">
+    <link href="../styles/style.css" rel="stylesheet" type="text/css" media="all">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Weeknotes 001">
+    <meta property="og:url" content="https://yourwebsitehere.com/posts/{{ page.date | date: &#39;%Y-%m-%d&#39; }}-{{ page.fileSlug }}.html">
+    <meta property="og:image" content="https://yourwebsitehere.com/images/">
+    <meta property="og:description" content="Weeknotes">
+  </head>
+  
+  <body>
+    <main id="container">
+
+      <div id="headerArea">
+        <!--If you wanted to put in a header image, this is where you would do it-->
+        <nav id="navbar">
+        <!--This is where you edit the navbar links at the top of the page-->
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../about.html">About</a></li>
+            <li><a href="../creative.html">Creations</a></li>
+            <li><a href="../diary.html">Diary</a></li>
+            <li><a href="../links.html">Links</a></li>
+            <li><a href="../rss.xml">RSS</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <!--This is where the bulk of your page lives-->
+      <div id="flex">
+        <article>
+          <h1>Weeknotes 001</h1>
+
+          <div class="postMetadata">
+          <!--You can change how topDate looks in your .eleventy.js file-->
+          <strong>2025 January 04</strong> //
+          <!--This will list the tags on your post EXCEPT for the "post" tag, separated by commas-->
+          
+            <a href="../tags/personal.html">personal</a>, 
+            <a href="../tags/weeknotes.html">weeknotes</a>
+            </div>
+          
+          <!--The content of your post-->
+          <p>Wanted to attempt doing my version of <a href="https://doingweeknotes.com/">weeknotes</a>, but so I'll see if this is really useful or not... This was originally posted on my <a href="mataroa.blog">mataroa</a> blog which I use for my professional life, but I realized I'd rather post them here. It gives me more of a reason to use neocities!</p>
+<h2>Life</h2>
+<ul>
+<li>Celebrated my birthday on December 27th. It was very lowkey, as usual with my family and my birthday being during the holidays.</li>
+<li>Got sick on December 30th with a sore throat. Slowly recovering as I write this, but it's really these unidentifiable things that get you!</li>
+<li>Doing a lot of New Year's cleaning and planning, still working out that yearly theme.</li>
+<li>Been successfully doing &quot;one line a day&quot; journaling for most days since December 30th. I'm trying a new <a href="https://www.youtube.com/watch?v=_vEBBYJ1WBk&amp;t=586s&amp;pp=ygUTZG9wYW1pbmUgam91cm5hbGluZw%3D%3D">system</a> for my monthly pages in my Hobonichi Weeks.</li>
+</ul>
+<h2>Work</h2>
+<ul>
+<li>Mostly brainstorming ways to make my work a little more efficient...</li>
+<li>Also trying to brainstorm more concrete goals, but I have a tendency to work way more than I need to, so I'll probably try to cut back on pushing so many hours into my weekend.</li>
+</ul>
+<h2>Reading, watching, &amp; playing</h2>
+<ul>
+<li>I've been reading through <em>Amitie and the Mysterious Egg</em> for Japanese learning and <em>The World Beyond Your Head: On Becoming An Individual in the Age of Distraction</em> by Matthew Crawford for &quot;fun&quot;.</li>
+<li>I started watching <em>BanG Dream! It's MYGO!!!!!&quot;</em> and am pleasantly surprised at the directing quality. The music and art style are about as mediocre as I remember, though.</li>
+<li>I <em>was</em> playing <em>Ensemble Stars!! Music</em> regularly until the recent event story. I won't get into the details, but I'm very disappointed at the company for this decision and I am unsure if I will continue dedicating time to it the same way I have the last 2-3 years.</li>
+</ul>
+<!-- begin wwww.htmlcommentbox.com -->
+ <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">Comment Form</a> is loading comments...</div>
+ <link rel="stylesheet" type="text/css" href="https://www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
+ <script type="text/javascript" id="hcb"> /*<!--*/ if(!window.hcb_user){hcb_user={};} (function(){var s=document.createElement("script"), l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"), h="https://www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&mod=%241%24wq1rdBcg%24w9eytFO%2FEemAy9dJweexS1"+"&opts=16798&num=10&ts=1736117397573");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})(); /*-->*/ </script>
+<!-- end www.htmlcommentbox.com -->
+          
+          <!--This will take you to the next/previous blog entries if they exist-->
+          <nav id="nextprev">
+          
+          <a class="next" href="/posts/2025-01-10-weeknotes-002.html">« Next</a> |
+          
+          <a href="../archives.html">Archives</a>
+          
+          | <a class="previous" href="/posts/2024-04-21-gdocs-blog.html">Previous »</a>
+          
+          </nav>
+        </article>
+      </div>
+
+      <!--Edit in your footer here, or delete it entirely if you want-->
+      <footer id="footer">My Cool Blog is really cool, right?</footer>
+
+    </main>
+    
+    <!--this will add a 'Go to top' button on your site-->
+    <button onclick="topFunction()" id="topBtn" title="Go to top">Top</button>
+    
+    <script>
+      let topbutton = document.getElementById("topBtn");
+      window.onscroll = function() {scrollFunction()};
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          topbutton.style.display = "block";
+        } else {
+          topbutton.style.display = "none";
+        }
+      }
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+    <!--end top button code-->
+
+  </body>
+</html>

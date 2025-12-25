@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="https://yourwebsitehere.com/rss.xml" rel="alternate" type="application/rss+xml" title="RSS feed for My Cool Blog">
+    <title>arca ruins ❆ Weeknotes 002</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is the description for My Cool Blog!">
+    <link rel="icon" href="../images/favicon.png" type="image/x-icon">
+    <link href="../styles/style.css" rel="stylesheet" type="text/css" media="all">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Weeknotes 002">
+    <meta property="og:url" content="https://yourwebsitehere.com/posts/{{ page.date | date: &#39;%Y-%m-%d&#39; }}-{{ page.fileSlug }}.html">
+    <meta property="og:image" content="https://yourwebsitehere.com/images/">
+    <meta property="og:description" content="Weeknotes 002">
+  </head>
+  
+  <body>
+    <main id="container">
+
+      <div id="headerArea">
+        <!--If you wanted to put in a header image, this is where you would do it-->
+        <nav id="navbar">
+        <!--This is where you edit the navbar links at the top of the page-->
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../about.html">About</a></li>
+            <li><a href="../creative.html">Creations</a></li>
+            <li><a href="../diary.html">Diary</a></li>
+            <li><a href="../links.html">Links</a></li>
+            <li><a href="../rss.xml">RSS</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <!--This is where the bulk of your page lives-->
+      <div id="flex">
+        <article>
+          <h1>Weeknotes 002</h1>
+
+          <div class="postMetadata">
+          <!--You can change how topDate looks in your .eleventy.js file-->
+          <strong>2025 January 11</strong> //
+          <!--This will list the tags on your post EXCEPT for the "post" tag, separated by commas-->
+          
+            <a href="../tags/personal.html">personal</a>, 
+            <a href="../tags/weeknotes.html">weeknotes</a>
+            </div>
+          
+          <!--The content of your post-->
+          <p>Not much to talk about this week. I was doing a lot of personal reflection that's most likely better suited for a longer form blog post.</p>
+<h2>Life</h2>
+<ul>
+<li>Dealing with the fires in my area.</li>
+<li>Still in search of a good life-balance. I haven't been exercising as much as I'd like because of the aforementioned fires.</li>
+<li>Hung out with a few friends this week to watch some <em>Precure</em>. Rewatching the <em>Star Twinkle Precure</em> movie with everyone was a delight. I cried again.</li>
+<li>Still thinking a lot about how the hunch that I had OCPD when I was a teenager is actually probably true. I've been doing a lot of reflecting by listening to <a href="https://thehealthycompulsive.com">The Healthy Compulsive Project</a></li>
+</ul>
+<h2>Work</h2>
+<ul>
+<li>Work-life balance is hard as said before. I think the good thing is that having to make a clear work schedule really forces me to use the weekends for rest.</li>
+</ul>
+<h2>Reading, watching, &amp; playing</h2>
+<ul>
+<li>Still reading <em>Amitie and the Mysterious Egg</em> for Japanese learning and <em>The World Beyond Your Head: On Becoming An Individual in the Age of Distraction</em> by Matthew Crawford.</li>
+<li>Finished binging <em>BanG Dream! It's MyGO!!!!!</em> with my partner and really enjoyed it as a season. I'm surprised at how much BanG Dream has branched out, but I wonder why it's decided to do that.</li>
+<li>Started watching BanG Dream! Ave Mujica: The Die is Cast with my partner as well.</li>
+</ul>
+<!-- begin wwww.htmlcommentbox.com -->
+ <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">Comment Form</a> is loading comments...</div>
+ <link rel="stylesheet" type="text/css" href="https://www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
+ <script type="text/javascript" id="hcb"> /*<!--*/ if(!window.hcb_user){hcb_user={};} (function(){var s=document.createElement("script"), l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"), h="https://www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&mod=%241%24wq1rdBcg%24w9eytFO%2FEemAy9dJweexS1"+"&opts=16798&num=10&ts=1736117397573");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})(); /*-->*/ </script>
+<!-- end www.htmlcommentbox.com -->
+          
+          <!--This will take you to the next/previous blog entries if they exist-->
+          <nav id="nextprev">
+          
+          <a class="next" href="/posts/2025-02-08-weeknotes-003.html">« Next</a> |
+          
+          <a href="../archives.html">Archives</a>
+          
+          | <a class="previous" href="/posts/2025-01-03-weeknotes-001.html">Previous »</a>
+          
+          </nav>
+        </article>
+      </div>
+
+      <!--Edit in your footer here, or delete it entirely if you want-->
+      <footer id="footer">My Cool Blog is really cool, right?</footer>
+
+    </main>
+    
+    <!--this will add a 'Go to top' button on your site-->
+    <button onclick="topFunction()" id="topBtn" title="Go to top">Top</button>
+    
+    <script>
+      let topbutton = document.getElementById("topBtn");
+      window.onscroll = function() {scrollFunction()};
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          topbutton.style.display = "block";
+        } else {
+          topbutton.style.display = "none";
+        }
+      }
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+    <!--end top button code-->
+
+  </body>
+</html>
