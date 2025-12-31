@@ -5,11 +5,9 @@ description: arca ruins homepage
 featured_image: favicon.png
 ---
 
-This site functions as a personal archive for my works, thoughts, opinions, and is essentially a living creative journal.
+Hello, I'm **Klug** or **Eudaemonics**. This is sort of my atelier/hermitage where I make things and document little bits of my life. I'm a hobbyist [artist and writer](https://eudaemonics.neocities.org) and hope to develop my own game someday... For now, I just write about them.
 
-I sometimes post brain dumps which can range from thoughts on research, video game and book reviews, to just random stuff I came up with.
-
-I can also be found on [BlueSky](https://bsky.app/profile/klug.neocities.org) and [Tumblr](https://eudaemonix.tumblr.com). I sporadically post on the [fediverse](https://toot.cat/@eudaemonics).
+I can also be found on [BlueSky](https://bsky.app/profile/klug.neocities.org) and [Tumblr](https://eudaemonix.tumblr.com). I very sporadically post on the [fediverse](https://toot.cat/@eudaemonics).
 
 <div id="wcb" class="carbonbadge wcb-d"></div>
 <script src="https://unpkg.com/website-carbon-badges@1.1.3/b.min.js" defer></script>

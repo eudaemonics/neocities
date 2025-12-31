@@ -14,6 +14,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addWatchTarget("./src/images/");
     eleventyConfig.addPassthroughCopy("./src/not_found.html");
     eleventyConfig.addPassthroughCopy("./src/.htaccess");
+    eleventyConfig.addWatchTarget("./src/media/");
 
     // Load the RSS plugin
     eleventyConfig.addPlugin(pluginRss);
@@ -63,7 +64,7 @@ module.exports = function (eleventyConfig) {
     // These are the folders that Eleventy will use. "src" is where you edit files that Eleventy will then take in and export into "public," which you upload.
         return {
             dir: {
-                input: "src",
+                input: "src/",
                 output: "public",
             },
         };

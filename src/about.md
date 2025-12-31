@@ -10,7 +10,7 @@ featured_image: favicon.png
 
 ## about me.
 
-*  **Name:** Eudaemonics
+*  **Name:** Klug or Eudaemonics
     * **Nickname:** Eudiel, Euphrasie, Euphie, Euphiel, etc.
 *  **Pronouns:** ey/em/eir/emself or it/its/itself
 *  **Birthday:** December 27

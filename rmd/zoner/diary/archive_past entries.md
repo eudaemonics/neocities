@@ -1,3 +1,0 @@
-# All entries
-
-<archive></archive>

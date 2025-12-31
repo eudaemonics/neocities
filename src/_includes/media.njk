@@ -1,0 +1,78 @@
+---
+title: "arca ruins ❆ {{ title }}"
+---
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://klug.neocities.org/rss.xml" rel="alternate" type="application/rss+xml" title="RSS feed for My Cool Blog">
+    <title>arca ruins ❆ {{ title }}</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Eudaemonics' Atelier">
+    <link rel="icon" href="../images/favicon.png" type="image/x-icon">
+    <link href="../styles/styles.css" rel="stylesheet" type="text/css" media="all">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="{{ title }}">
+    <meta property="og:url" content="https://klug.neocities.org/{{ permalink }}">
+    <meta property="og:image" content="https://klug.neocities.org/images/{{ featured_image }}">
+    <meta property="og:description" content="{{ description }}">
+  </head>
+  
+  <body>
+    <main id="container">
+
+      <div id="headerArea">
+        <!--If you wanted to put in a header image, this is where you would do it-->
+        <nav id="navbar">
+        <!--This is where you edit the navbar links at the top of the page-->
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="creative.html">Creations</a></li>
+            <li><a href="diary.html">Diary</a></li>
+            <li><a href="links.html">Links</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <!--This is where the bulk of your page lives-->
+      <div id="flex">
+        <article>
+          
+          <h1>{{ title }}</h1>
+          
+          <!--The content of your page-->
+          {{ content | safe }}
+
+        </article>
+      </div>
+
+      <!--Edit in your footer here, or delete it entirely if you want-->
+      <footer id="footer"><a href="https://www.11ty.dev/">Built with 11ty</a> | CC-BY-SA & <a href="https://github.com/eudaemonics/neocities">MIT</a><br><a href="/sitemap.html">Sitemap</a> | <a href="rss.xml">RSS</a> | 2022-2025
+</footer>
+
+    </main>
+    
+    <!--this will add a 'Go to top' button on your site-->
+    <button onclick="topFunction()" id="topBtn" title="Go to top">↑</button>
+    
+    <script>
+      let topbutton = document.getElementById("topBtn");
+      window.onscroll = function() {scrollFunction()};
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          topbutton.style.display = "block";
+        } else {
+          topbutton.style.display = "none";
+        }
+      }
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+    <!--end top button code-->
+
+  </body>
+</html>
