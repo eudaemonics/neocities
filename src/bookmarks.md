@@ -36,7 +36,7 @@ Now go. Be free. Be bad at this. Be cringe at this. Be boring.
 
 These are alternatives to neocities that have the same idea of static web hosting or platforms focused on making blogging friction-free and accessible.
 
--   [ichi.city](https://ichi.city)
+-   [ichi.city](https://ichi.city) - Requires you to buy a key from [m15o](https://m15o.gumroad.com/l/YccHL?layout=profile).
 -   [nekoweb.org](https://nekoweb.org)
 -   [mataroa.blog](https://mataroa.blog/)
 -   [bearblog.dev](https://bearblog.dev/)

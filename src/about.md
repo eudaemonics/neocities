@@ -40,7 +40,14 @@ In terms of media interests, I really like the _Puyo Puyo_ franchise and it's be
 
 I also read a lot of mystery/detective novel fiction and I'm currently reading through a lot of honkaku and shin honkaku mystery classics as more are being translated into English.
 
-### system.
+***
+
+## otherkin
+<p><img src="images/userbox/klug%20userbox.png" alt="This user is Klug" width=50%><img src="images/userbox/aya%20userbox.png" alt="This user is Possessed Klug" width=50%><img src="images/userbox/mfy%20userbox.png" alt="This user is Mafuyu Asahina" width=50%><img src="images/userbox/shu%20userbox.png" alt="This user is Shu Itsuki" width=50%>
+
+***
+
+## system.
 
 This system is run by a lot of people in one trench coat, but we generally prefer to act as one unit. This section displays who is currently fronting and is more for fun than anything else.
 

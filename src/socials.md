@@ -16,7 +16,7 @@ Hello, my name is "Eudaemonics" but you might know me as Klug or Eudae or [somet
 
 I am also a translator for [Precise Museum](https://precisemuseum.com) and a content admin for the Puyo Nexus Wiki, and I occasionally translate for other franchises such as *Umamusume* and *Project Sekai* sporadically.
 
-If you enjoy my art or translation work, please consider leaving me a tip on [ko-fi](https://ko-fi.com/eudaemonics). It makes me go faster!
+If you enjoy my art, streams, or translation work, please consider leaving me a tip on [ko-fi](https://ko-fi.com/eudaemonics). It makes me go faster!
 
 I am not necessarily disabled but I struggle with communication due to my DID, autism, and OCPD. Patience is appreciated.
 
@@ -27,6 +27,8 @@ Please do not follow/interact with me if your account is primarily NSFW-oriented
 [Art Tumblr](https://eudaemonix.tumblr.com) | [Art BlueSky](https://eudaemonix.bsky.social) | [Art Twitter](https://twitter.com/eudaemonix)
 
 [Personal Tumblr](https://klug.tumblr.com) | [Personal BlueSky](https://bsky.app/profile/klug.neocities.org) | [Fediverse (Inactive)](https://toot.cat/@eudaemonics)
+
+[Twitch](https://www.twitch.tv/eudaemonix) | [YouTube](https://www.youtube.com/@eudaemonicz)
 
 [AO3](https://archiveofourown.org/users/eudaemonix) | [Toyhouse](https://toyhou.se/klug) | [Steam](https://steamcommunity.com/id/candypopbud) | [Backloggery](https://backloggery.com/strangeklug) | [Storygraph](https://app.thestorygraph.com/profile/eudaemonics)
 

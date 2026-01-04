@@ -13,6 +13,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("./src/images");
     eleventyConfig.addWatchTarget("./src/images/");
     eleventyConfig.addPassthroughCopy("./src/not_found.html");
+    eleventyConfig.addPassthroughCopy("./src/.well-known");
     eleventyConfig.addPassthroughCopy("./src/.htaccess");
     eleventyConfig.addWatchTarget("./src/media/");
 

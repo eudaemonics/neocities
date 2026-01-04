@@ -1,8 +1,11 @@
-# repository for my [neocities hobby](https://klug.neocities.org) site.
+# repository for my [neocities](https://klug.neocities.org) site & blog
+
+![Built with 11ty](src/images/button/builtwith11ty.webp)
 
 <img align="right" width="25%" src="https://puyonexus.com/mediawiki/images/8/82/Img430507_ss.png">
 
 * Currently using custom CSS and visual studio code.
-* Utilizing [deploy to neocities](https://github.com/bcomnes/deploy-to-neocities) workflow.
-* If someone knows how to make github workflows ignore RMD please tell me. I'm dying.
 
+## Credits
+* [Deploy to neocities](https://github.com/bcomnes/deploy-to-neocities) 
+* Renkon's [11ty Guide](https://renkotsuban.com/posts/2025-07-25-Updates-to-the-Eleventy-guide.html)

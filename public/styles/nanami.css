@@ -52,7 +52,8 @@ h1,h2,h3,h4,h5,h6,p,blockquote,dl,img,figure {
 }
 
 h1,h2,h3,h4,h5,h6 { font-weight: bold; line-height: 1.2; }
-h1 { font-size: 200%; text-decoration:underline;}
+h1 { font-size: 200%; 
+    text-decoration:underline;}
 h2 { font-size: 150%; }
 h3 { font-size: 120%; }
 h4,h5,h6 { font-size: 100%; }
